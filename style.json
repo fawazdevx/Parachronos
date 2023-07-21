@@ -1,0 +1,243 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"Parachronos",
+			"icon":":images/logo.png",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "sizeGrip",
+			"navigation":[
+				{
+					"minimize":"minimize_window_btn",
+					"close": "close_window_btn",
+					"restore":[
+						{
+							"buttonName": "restore_window_btn",
+							"normalIcon": ":/icons/icons/square.svg",
+							"maximizedIcon": ":/icons/icons/copy.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+	"QCustomSlideMenu": [
+		{
+			"name": "leftMenuContainer",
+			"defaultSize": [{
+				"width": 50,
+				"height": "parent"
+			}],
+			"collapsedSize": [{
+				"width": 50,
+				"height": "parent"
+			}],
+			"expandedSize": [{
+				"width": 150,
+				"height": "parent"
+			}],
+			"toggleButton": [{
+				"buttonName": "menuBtn",
+				"icons": [{
+					"whenMenuIsCollapsed": ":/icons/icons/align-justify.svg",
+					"whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+				}]
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+		{
+			"name": "centerMenuContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "parent"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "parent"
+			}],
+			"expandedSize": [{
+				"width": 300,
+				"height": "parent"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+		{
+			"name": "rightMenuContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"expandedSize": [{
+				"width": 300,
+				"height": "auto"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+		{
+			"name": "popupNotificationContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"expandedSize": [{
+				"width": 500,
+				"height": 100
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}],
+			"floatPosition": [
+				{
+					"relativeTo": "centralwidget",
+					"position": "top-center",
+					"shadow":[
+						{
+							"color": "#000",
+							"blurRadius": 20,
+							"xOffset": 0,
+							"yOffset": 0
+						}
+					]
+				}
+			],
+			"toggleButton": [{
+				"buttonName": "notificationBtn"
+				}]
+		},
+		{
+			"name": "quickLinksContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"expandedSize": [{
+				"width": 250,
+				"height": 200
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}],
+			"floatPosition": [
+				{
+					"relativeTo": "home_page",
+					"position": "top-left",
+					"shadow":[
+						{
+							"color": "#000",
+							"blurRadius": 20,
+							"xOffset": 0,
+							"yOffset": 0
+						}
+					]
+				}
+			],
+			"toggleButton": [{
+				"buttonName": "quickLinksBtn"
+				}]
+		}
+	],
+	"QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"homeBtn": "home_page",
+							"networksBtn": "para_page",
+							"tradeBtn": "trade_page",
+							"miningBtn": "mining_page",
+							"mintingBtn": "nfts_page",
+							"nftMarketBtn": "nftsMarketplacePage",
+							"walletBtn": "wallet_page"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"centerMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"settingsBtn": "page",
+							"infoBtn": "page_2",
+							"helpBtn": "page_3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"rightMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"moreMenuBtn": "page_5",
+							"profileMenuBtn": "page_4"
+						}
+					]
+				}
+			]
+		}
+	],
+	"QPushButtonGroup": [
+		{
+			"Buttons": [
+				"homeBtn",
+				"networksBtn",
+				"tradeBtn",
+				"miningBtn",
+				"mintingBtn",
+				"nftMarketBtn",
+				"walletBtn"
+			],
+			"Style":[
+				{
+					"Active": "background-color: #1f232a;",
+					"NotActive": "background-color: transparent;"
+				}
+			]
+		},
+		{
+			"Buttons": [
+				"settingsBtn",
+				"infoBtn",
+				"helpBtn"
+			],
+			"Style":[
+				{
+					"Active": "background-color: #2c313c;",
+					"NotActive": "background-color: transparent;"
+				}
+			]
+		}
+	]
+}
