@@ -197,19 +197,19 @@ class MainWindow(QMainWindow):
         self.webEngineView.setUrl(QUrl("https://polkadot.js.org"))
 
     def goto_github(self):
-        self.webEngineView.setUrl(QUrl("https://github.com"))
+        self.webEngineView.setUrl(QUrl("https://www.github.com"))
 
     def goto_gitlab(self):
-        self.webEngineView.setUrl(QUrl("https://gitlab.com"))
+        self.webEngineView.setUrl(QUrl("https://www.gitlab.com"))
 
     def goto_mail(self):
-        self.webEngineView.setUrl(QUrl("https://gmail.com"))
+        self.webEngineView.setUrl(QUrl("https://www.gmail.com"))
 
     def goto_twitter(self):
-        self.webEngineView.setUrl(QUrl("https://twitter.com"))
+        self.webEngineView.setUrl(QUrl("https://www.twitter.com"))
 
     def goto_youtube(self):
-        self.webEngineView.setUrl(QUrl("https://youtube.com"))
+        self.webEngineView.setUrl(QUrl("https://www.youtube.com"))
 
     def getcurrent_url(self, q):
         self.ui.addressBar.setText(q.toString())
