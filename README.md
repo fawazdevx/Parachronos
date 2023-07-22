@@ -49,7 +49,8 @@ To get started with Parachronos, follow these steps:
                       "pyqt5-tools==5.15.9.3.3",
                       "QT-PyQt-PySide-Custom-Widgets==0.6.3",
                       "pipwin==0.5.2",
-                      "cairocffi",]
+                      "cairocffi", 
+                      "PySide2extn==1.0.0",]
 3. Run the app: [python main.py]
 
 ## Usage
