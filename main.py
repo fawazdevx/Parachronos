@@ -35,6 +35,10 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+        self.setWindowIcon(QtGui.QIcon("parachronos.ico"))
+
+        self.setWindowFlags(Qt.FramelessWindowHint)
+        self.setAttribute(Qt.WA_TranslucentBackground)
 
         self.setMinimumSize(850, 600)
 
@@ -105,6 +109,7 @@ class MainWindow(QMainWindow):
         # PARA_BROWSER
     ################################################################################
 
+        self.ui.sizeGrip.setVisible(True)
         self.ui.backBtn.clicked.connect(self.webEngineView.back)
         self.ui.forwardBtn.clicked.connect(self.webEngineView.forward)
         self.ui.reloadBtn.clicked.connect(self.webEngineView.reload)
