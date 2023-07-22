@@ -54,13 +54,13 @@ To get started with Parachronos, follow these steps:
 ## Screenshots
 
 <p align="center">
-  <img src="path/to/screenshot1.png" alt="Screenshot 1">
+  <img src="images/Screenshot 2023-07-22 075728.png" alt="Screenshot 1">
   <br>
   Caption for Screenshot 1
 </p>
 
 <p align="center">
-  <img src="path/to/screenshot2.png" alt="Screenshot 2">
+  <img src="images/Screenshot 2023-07-21 183137.png" alt="Screenshot 2">
   <br>
   Caption for Screenshot 2
 </p>
