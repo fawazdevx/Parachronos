@@ -96,6 +96,10 @@ class MainWindow(QMainWindow):
 
         # CLOSE QUICK LINKS CONTAINER
         self.ui.closequickLinkBtn.clicked.connect(lambda: self.ui.quickLinksContainer.collapseMenu())
+        self.ui.quickLinksContainer.setVisible(False)
+        self.ui.popupNotificationContainer.setVisible(False)
+        self.ui.centerMenuContainer.setVisible(False)
+        self.ui.rightMenuContainer.setVisible(False)
 
     ################################################################################
         # PARA_BROWSER
