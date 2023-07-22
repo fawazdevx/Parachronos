@@ -44,8 +44,13 @@ Welcome to Parachronos, a cutting-edge Polkadot parachain manager that revolutio
 To get started with Parachronos, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/UnrealFawaz/Parachronos.git`
-2. Install the required dependencies: [List any Python dependencies and their installation commands]
-3. Run the app: [Provide the command to start your app]
+2. Install the required dependencies: ["PyQt5==5.15.9",
+                      "PySide2==5.15.2.1",
+                      "pyqt5-tools==5.15.9.3.3",
+                      "QT-PyQt-PySide-Custom-Widgets==0.6.3",
+                      "pipwin==0.5.2",
+                      "cairocffi",]
+3. Run the app: [python main.py]
 
 ## Usage
 
