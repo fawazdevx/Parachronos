@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface_PKhdJOVn.ui'
+## Form generated from reading UI file 'interface_PKUzAeON.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -22,7 +22,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(940, 594)
+        MainWindow.setWindowModality(Qt.ApplicationModal)
+        MainWindow.resize(956, 700)
         sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -131,6 +132,7 @@ class Ui_MainWindow(object):
 "	color: rgb(255, 255, 255);\n"
 "}\n"
 "")
+        MainWindow.setTabShape(QTabWidget.Rounded)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
@@ -1375,7 +1377,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 431, 366))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 342, 366))
         self.verticalLayout_32 = QVBoxLayout(self.scrollAreaWidgetContents_3)
         self.verticalLayout_32.setObjectName(u"verticalLayout_32")
         self.widget_4 = QWidget(self.scrollAreaWidgetContents_3)
@@ -3636,6 +3638,7 @@ class Ui_MainWindow(object):
 
         self.quickLinksContainer = QCustomSlideMenu(self.mainBodyContainer)
         self.quickLinksContainer.setObjectName(u"quickLinksContainer")
+        self.quickLinksContainer.setInputMethodHints(Qt.ImhNone)
         self.verticalLayout_78 = QVBoxLayout(self.quickLinksContainer)
         self.verticalLayout_78.setSpacing(6)
         self.verticalLayout_78.setObjectName(u"verticalLayout_78")
@@ -3753,7 +3756,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_19 = QVBoxLayout(self.popupNotificationContainer)
         self.verticalLayout_19.setSpacing(6)
         self.verticalLayout_19.setObjectName(u"verticalLayout_19")
-        self.verticalLayout_19.setContentsMargins(9, 9, 9, 9)
+        self.verticalLayout_19.setContentsMargins(0, 0, 0, 0)
         self.popupNotificationSubContainer = QWidget(self.popupNotificationContainer)
         self.popupNotificationSubContainer.setObjectName(u"popupNotificationSubContainer")
         self.verticalLayout_20 = QVBoxLayout(self.popupNotificationSubContainer)
@@ -3857,7 +3860,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.centerMenuPages.setCurrentIndex(1)
+        self.centerMenuPages.setCurrentIndex(0)
         self.mainPages.setCurrentIndex(0)
         self.stackedWidget.setCurrentIndex(0)
         self.rightMenuPages.setCurrentIndex(0)
@@ -3869,7 +3872,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
 #if QT_CONFIG(tooltip)
-        MainWindow.setToolTip(QCoreApplication.translate("MainWindow", u"Click to buy NFT", None))
+        MainWindow.setToolTip("")
 #endif // QT_CONFIG(tooltip)
 #if QT_CONFIG(tooltip)
         self.menuBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Menu", None))

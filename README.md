@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/polk.png" alt="Parachronos Logo">
+  <img src="images/parachronos.ico" alt="Parachronos Logo">
 </p>
 
 # Parachronos - Unleashing the Polkadot Potential
