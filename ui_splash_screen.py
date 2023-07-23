@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'splash_screenCPxWaa.ui'
+## Form generated from reading UI file 'splash_screenLxsiQj.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -35,6 +35,7 @@ class Ui_SplashScreen(object):
         self.dropShadowFrame.setFrameShadow(QFrame.Raised)
         self.verticalLayout_5 = QVBoxLayout(self.dropShadowFrame)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
+        self.verticalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.frame = QFrame(self.dropShadowFrame)
         self.frame.setObjectName(u"frame")
         self.frame.setFrameShape(QFrame.StyledPanel)
