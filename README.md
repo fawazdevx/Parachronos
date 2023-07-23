@@ -91,7 +91,7 @@ If you have any questions or feedback, feel free to reach out to us:
 
 - Email: oyebodefawaz2020@gmail.com
 - Discord: username[fawaz22]
-- Telegram: https//:t.me/FawazUE5
+- Telegram: https://t.me/FawazUE5
 
 We are excited to hear from you!
 
