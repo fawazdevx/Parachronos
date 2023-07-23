@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface_PKLHRcAQ.ui'
+## Form generated from reading UI file 'interface_PKaSQABs.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -3865,7 +3865,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
 
         self.centerMenuPages.setCurrentIndex(0)
-        self.mainPages.setCurrentIndex(1)
+        self.mainPages.setCurrentIndex(0)
         self.stackedWidget.setCurrentIndex(1)
         self.rightMenuPages.setCurrentIndex(0)
 

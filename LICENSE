@@ -1,87 +1,28 @@
-<p align="center">
-  <img src="path/to/your/logo.png" alt="Parachronos Logo">
-</p>
+MIT License
+===========
 
-# Parachronos - Unleashing the Polkadot Potential
+[Parachronos](https://youtube.com/@unrealme3320)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+Copyright (c) [2023] [Fawaz Oyebode]
 
-## Table of Contents
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+1. **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
-## Introduction
+2. **Share Alike:** If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-Welcome to Parachronos, a cutting-edge Polkadot parachain manager that revolutionizes the way you interact with the Polkadot ecosystem. Parachronos simplifies the process of deploying and managing parachains, empowering developers and projects to seamlessly connect to the Polkadot network.
+3. **No Additional Restrictions:** You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-## Features
+4. **No Warranty:** The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
 
-- **User-Friendly Interface:** Parachronos offers an intuitive and modern interface, making it accessible for both seasoned developers and newcomers to the Polkadot ecosystem.
+5. **Support and Updates:** While the authors may provide support and updates for the Software at their discretion, they are under no obligation to do so. Any support or updates provided will be on a "best-effort" basis.
 
-- **In-Built Browser:** Parachronos is built with a browser to be able to easily access information on API's, crypto-currencies, parachain and more.
+6. **User Responsibility:** The user of the Software is solely responsible for ensuring the compliance of their applications or projects with all applicable open-source licensing requirements.
 
-- **Seamless Parachain Deployment:** Deploying a parachain has never been easier. With just a few clicks, you can launch your own parachain and start building your decentralized application.
+7. **Acknowledgment:** The user of the Software agrees to acknowledge the authors and the Software's origin in their applications or projects by displaying the following credit line prominently: "Powered by Parachronos."
 
-- **Real-Time Monitoring:** Stay informed about your parachain's health and performance with real-time monitoring and detailed statistics.
-
-- **Customizable Parameters:** Customize your parachain's parameters to tailor it to your specific needs and optimize its performance.
-
-- **NFTs Collection:** Interact with Polkadot's governance system directly from Parachronos, enabling you to participate in shaping the future of the network.
-
-- **NFTs Marketplace:** Parachronos is built with security and reliability in mind, ensuring your parachains run smoothly and securely.
-
-- **DOT Mining:** Parachronos is built with a mining tool for DOT currency using your device logical processors and speed.
-
-## Getting Started
-
-To get started with Parachronos, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/UnrealFawaz/Parachronos.git`
-2. Install the required dependencies: [List any Python dependencies and their installation commands]
-3. Run the app: [Provide the command to start your app]
-
-## Usage
-
-[Add here detailed instructions on how to use your app. Include examples to guide the user through the process.]
-
-## Screenshots
-
-<p align="center">
-  <img src="path/to/screenshot1.png" alt="Screenshot 1">
-  <br>
-  Caption for Screenshot 1
-</p>
-
-<p align="center">
-  <img src="path/to/screenshot2.png" alt="Screenshot 2">
-  <br>
-  Caption for Screenshot 2
-</p>
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to Parachronos, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to us:
-
-- Email: oyebodefawaz2020@gmail.com
-- Discord: username[fawaz22]
-
-We are excited to hear from you!
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 ---
 
-Developed with ❤️ by [UnrealME](https://youtube.com/@unrealme3320)
+Developed with ❤️ by [Your Team Name](https://youtube.com/@unrealme3320)
