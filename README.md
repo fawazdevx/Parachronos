@@ -72,7 +72,7 @@ To get started with Parachronos, follow these steps:
 </p>
 
 <p align="center">
-  <img src="images/Screenshot 2023-07-21 183205.png" alt="Screenshot 2">
+  <img src="images/Screenshot 2023-07-23 091247.png" alt="Screenshot 2">
   <br>
   Caption for Screenshot 2
 </p>

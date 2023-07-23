@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface_PKUzAeON.ui'
+## Form generated from reading UI file 'interface_PKDZtPef.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -141,7 +141,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.leftMenuContainer = QCustomSlideMenu(self.centralwidget)
         self.leftMenuContainer.setObjectName(u"leftMenuContainer")
-        self.leftMenuContainer.setMaximumSize(QSize(65, 16777215))
+        self.leftMenuContainer.setMaximumSize(QSize(50, 16777215))
         self.leftMenuContainer.setStyleSheet(u"#centralwidget{\n"
 "   background-color:#351c75;\n"
 "}\n"
@@ -586,29 +586,28 @@ class Ui_MainWindow(object):
         self.horizontalLayout_7.setSpacing(6)
         self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
         self.horizontalLayout_7.setContentsMargins(0, 0, 0, 0)
-        self.label_5 = QLabel(self.frame_5)
-        self.label_5.setObjectName(u"label_5")
-        sizePolicy.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
-        self.label_5.setSizePolicy(sizePolicy)
-        self.label_5.setMaximumSize(QSize(40, 60))
-        font4 = QFont()
-        font4.setPointSize(12)
-        font4.setBold(True)
-        font4.setWeight(75)
-        self.label_5.setFont(font4)
-        self.label_5.setPixmap(QPixmap(u":/icons/icons/dot.png"))
-        self.label_5.setScaledContents(True)
+        self.pushButton_41 = QPushButton(self.frame_5)
+        self.pushButton_41.setObjectName(u"pushButton_41")
+        sizePolicy6 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
+        sizePolicy6.setHorizontalStretch(0)
+        sizePolicy6.setVerticalStretch(0)
+        sizePolicy6.setHeightForWidth(self.pushButton_41.sizePolicy().hasHeightForWidth())
+        self.pushButton_41.setSizePolicy(sizePolicy6)
+        icon20 = QIcon()
+        icon20.addFile(u":/icons/parachronos_adobe_express.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_41.setIcon(icon20)
+        self.pushButton_41.setIconSize(QSize(40, 40))
 
-        self.horizontalLayout_7.addWidget(self.label_5)
+        self.horizontalLayout_7.addWidget(self.pushButton_41)
 
         self.label_6 = QLabel(self.frame_5)
         self.label_6.setObjectName(u"label_6")
-        font5 = QFont()
-        font5.setFamily(u"Segoe Print")
-        font5.setPointSize(11)
-        font5.setBold(True)
-        font5.setWeight(75)
-        self.label_6.setFont(font5)
+        font4 = QFont()
+        font4.setFamily(u"Segoe Print")
+        font4.setPointSize(11)
+        font4.setBold(True)
+        font4.setWeight(75)
+        self.label_6.setFont(font4)
 
         self.horizontalLayout_7.addWidget(self.label_6)
 
@@ -624,37 +623,37 @@ class Ui_MainWindow(object):
         self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
         self.notificationBtn = QPushButton(self.frame_6)
         self.notificationBtn.setObjectName(u"notificationBtn")
-        sizePolicy6 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Expanding)
-        sizePolicy6.setHorizontalStretch(0)
-        sizePolicy6.setVerticalStretch(0)
-        sizePolicy6.setHeightForWidth(self.notificationBtn.sizePolicy().hasHeightForWidth())
-        self.notificationBtn.setSizePolicy(sizePolicy6)
-        icon20 = QIcon()
-        icon20.addFile(u":/icons/icons/bell.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.notificationBtn.setIcon(icon20)
+        sizePolicy7 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Expanding)
+        sizePolicy7.setHorizontalStretch(0)
+        sizePolicy7.setVerticalStretch(0)
+        sizePolicy7.setHeightForWidth(self.notificationBtn.sizePolicy().hasHeightForWidth())
+        self.notificationBtn.setSizePolicy(sizePolicy7)
+        icon21 = QIcon()
+        icon21.addFile(u":/icons/icons/bell.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.notificationBtn.setIcon(icon21)
         self.notificationBtn.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_6.addWidget(self.notificationBtn)
 
         self.moreMenuBtn = QPushButton(self.frame_6)
         self.moreMenuBtn.setObjectName(u"moreMenuBtn")
-        sizePolicy6.setHeightForWidth(self.moreMenuBtn.sizePolicy().hasHeightForWidth())
-        self.moreMenuBtn.setSizePolicy(sizePolicy6)
-        icon21 = QIcon()
-        icon21.addFile(u":/icons/icons/more-horizontal.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.moreMenuBtn.setIcon(icon21)
+        sizePolicy7.setHeightForWidth(self.moreMenuBtn.sizePolicy().hasHeightForWidth())
+        self.moreMenuBtn.setSizePolicy(sizePolicy7)
+        icon22 = QIcon()
+        icon22.addFile(u":/icons/icons/more-horizontal.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.moreMenuBtn.setIcon(icon22)
         self.moreMenuBtn.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_6.addWidget(self.moreMenuBtn)
 
         self.profileMenuBtn = QPushButton(self.frame_6)
         self.profileMenuBtn.setObjectName(u"profileMenuBtn")
-        sizePolicy6.setHeightForWidth(self.profileMenuBtn.sizePolicy().hasHeightForWidth())
-        self.profileMenuBtn.setSizePolicy(sizePolicy6)
+        sizePolicy7.setHeightForWidth(self.profileMenuBtn.sizePolicy().hasHeightForWidth())
+        self.profileMenuBtn.setSizePolicy(sizePolicy7)
         self.profileMenuBtn.setMaximumSize(QSize(16777215, 16777215))
-        icon22 = QIcon()
-        icon22.addFile(u":/icons/icons/user.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.profileMenuBtn.setIcon(icon22)
+        icon23 = QIcon()
+        icon23.addFile(u":/icons/icons/user.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.profileMenuBtn.setIcon(icon23)
         self.profileMenuBtn.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_6.addWidget(self.profileMenuBtn)
@@ -671,27 +670,27 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.minimize_window_btn = QPushButton(self.frame_7)
         self.minimize_window_btn.setObjectName(u"minimize_window_btn")
-        icon23 = QIcon()
-        icon23.addFile(u":/icons/icons/minus.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.minimize_window_btn.setIcon(icon23)
+        icon24 = QIcon()
+        icon24.addFile(u":/icons/icons/minus.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.minimize_window_btn.setIcon(icon24)
         self.minimize_window_btn.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_4.addWidget(self.minimize_window_btn)
 
         self.restore_window_btn = QPushButton(self.frame_7)
         self.restore_window_btn.setObjectName(u"restore_window_btn")
-        icon24 = QIcon()
-        icon24.addFile(u":/icons/icons/square.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.restore_window_btn.setIcon(icon24)
+        icon25 = QIcon()
+        icon25.addFile(u":/icons/icons/square.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.restore_window_btn.setIcon(icon25)
         self.restore_window_btn.setIconSize(QSize(14, 14))
 
         self.horizontalLayout_4.addWidget(self.restore_window_btn)
 
         self.close_window_btn = QPushButton(self.frame_7)
         self.close_window_btn.setObjectName(u"close_window_btn")
-        icon25 = QIcon()
-        icon25.addFile(u":/icons/icons/x.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.close_window_btn.setIcon(icon25)
+        icon26 = QIcon()
+        icon26.addFile(u":/icons/icons/x.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.close_window_btn.setIcon(icon26)
         self.close_window_btn.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_4.addWidget(self.close_window_btn)
@@ -704,11 +703,11 @@ class Ui_MainWindow(object):
 
         self.mainBodyContent = QWidget(self.mainBodyContainer)
         self.mainBodyContent.setObjectName(u"mainBodyContent")
-        sizePolicy7 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
-        sizePolicy7.setHorizontalStretch(0)
-        sizePolicy7.setVerticalStretch(0)
-        sizePolicy7.setHeightForWidth(self.mainBodyContent.sizePolicy().hasHeightForWidth())
-        self.mainBodyContent.setSizePolicy(sizePolicy7)
+        sizePolicy8 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
+        sizePolicy8.setHorizontalStretch(0)
+        sizePolicy8.setVerticalStretch(0)
+        sizePolicy8.setHeightForWidth(self.mainBodyContent.sizePolicy().hasHeightForWidth())
+        self.mainBodyContent.setSizePolicy(sizePolicy8)
         self.horizontalLayout_8 = QHBoxLayout(self.mainBodyContent)
         self.horizontalLayout_8.setSpacing(0)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
@@ -744,12 +743,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_51.setContentsMargins(0, 0, 0, 0)
         self.label_10 = QLabel(self.frame_29)
         self.label_10.setObjectName(u"label_10")
-        font6 = QFont()
-        font6.setFamily(u"Segoe Print")
-        font6.setPointSize(12)
-        font6.setBold(True)
-        font6.setWeight(75)
-        self.label_10.setFont(font6)
+        font5 = QFont()
+        font5.setFamily(u"Segoe Print")
+        font5.setPointSize(12)
+        font5.setBold(True)
+        font5.setWeight(75)
+        self.label_10.setFont(font5)
         self.label_10.setStyleSheet(u"border-radius:10px;")
         self.label_10.setAlignment(Qt.AlignCenter)
 
@@ -797,9 +796,9 @@ class Ui_MainWindow(object):
         self.backBtn.setObjectName(u"backBtn")
         self.backBtn.setFont(font)
         self.backBtn.setStyleSheet(u"background-color:#1f232a;")
-        icon26 = QIcon()
-        icon26.addFile(u":/icons/icons/chevron-left.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.backBtn.setIcon(icon26)
+        icon27 = QIcon()
+        icon27.addFile(u":/icons/icons/chevron-left.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.backBtn.setIcon(icon27)
         self.backBtn.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_16.addWidget(self.backBtn)
@@ -808,9 +807,9 @@ class Ui_MainWindow(object):
         self.forwardBtn.setObjectName(u"forwardBtn")
         self.forwardBtn.setFont(font)
         self.forwardBtn.setStyleSheet(u"background-color:#1f232a;")
-        icon27 = QIcon()
-        icon27.addFile(u":/icons/icons/chevron-right.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.forwardBtn.setIcon(icon27)
+        icon28 = QIcon()
+        icon28.addFile(u":/icons/icons/chevron-right.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.forwardBtn.setIcon(icon28)
         self.forwardBtn.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_16.addWidget(self.forwardBtn)
@@ -819,9 +818,9 @@ class Ui_MainWindow(object):
         self.reloadBtn.setObjectName(u"reloadBtn")
         self.reloadBtn.setFont(font)
         self.reloadBtn.setStyleSheet(u"background-color:#1f232a;")
-        icon28 = QIcon()
-        icon28.addFile(u":/icons/icons/rotate-cw.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.reloadBtn.setIcon(icon28)
+        icon29 = QIcon()
+        icon29.addFile(u":/icons/icons/rotate-cw.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.reloadBtn.setIcon(icon29)
         self.reloadBtn.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_16.addWidget(self.reloadBtn)
@@ -837,9 +836,9 @@ class Ui_MainWindow(object):
         self.quickLinksBtn = QPushButton(self.actionBar)
         self.quickLinksBtn.setObjectName(u"quickLinksBtn")
         self.quickLinksBtn.setStyleSheet(u"background-color:#1f232a;")
-        icon29 = QIcon()
-        icon29.addFile(u":/icons/icons/grid.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.quickLinksBtn.setIcon(icon29)
+        icon30 = QIcon()
+        icon30.addFile(u":/icons/icons/grid.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.quickLinksBtn.setIcon(icon30)
 
         self.horizontalLayout_16.addWidget(self.quickLinksBtn)
 
@@ -870,29 +869,26 @@ class Ui_MainWindow(object):
 
         self.searchAddressBar = QPushButton(self.frame_32)
         self.searchAddressBar.setObjectName(u"searchAddressBar")
-        sizePolicy8 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
-        sizePolicy8.setHorizontalStretch(0)
-        sizePolicy8.setVerticalStretch(0)
-        sizePolicy8.setHeightForWidth(self.searchAddressBar.sizePolicy().hasHeightForWidth())
-        self.searchAddressBar.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.searchAddressBar.sizePolicy().hasHeightForWidth())
+        self.searchAddressBar.setSizePolicy(sizePolicy6)
         self.searchAddressBar.setMinimumSize(QSize(30, 30))
         self.searchAddressBar.setFont(font)
         self.searchAddressBar.setStyleSheet(u"")
-        icon30 = QIcon()
-        icon30.addFile(u":/icons/icons/search.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.searchAddressBar.setIcon(icon30)
+        icon31 = QIcon()
+        icon31.addFile(u":/icons/icons/search.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.searchAddressBar.setIcon(icon31)
         self.searchAddressBar.setIconSize(QSize(16, 16))
 
         self.gridLayout_4.addWidget(self.searchAddressBar, 0, 2, 1, 1)
 
         self.CertBtn = QPushButton(self.frame_32)
         self.CertBtn.setObjectName(u"CertBtn")
-        sizePolicy8.setHeightForWidth(self.CertBtn.sizePolicy().hasHeightForWidth())
-        self.CertBtn.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.CertBtn.sizePolicy().hasHeightForWidth())
+        self.CertBtn.setSizePolicy(sizePolicy6)
         self.CertBtn.setStyleSheet(u"background-color:#1f232a;")
-        icon31 = QIcon()
-        icon31.addFile(u":/icons/icons/lock.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.CertBtn.setIcon(icon31)
+        icon32 = QIcon()
+        icon32.addFile(u":/icons/icons/lock.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.CertBtn.setIcon(icon32)
 
         self.gridLayout_4.addWidget(self.CertBtn, 0, 0, 1, 1, Qt.AlignHCenter)
 
@@ -913,25 +909,25 @@ class Ui_MainWindow(object):
         self.zoomOutBtn = QPushButton(self.frame_33)
         self.zoomOutBtn.setObjectName(u"zoomOutBtn")
         self.zoomOutBtn.setStyleSheet(u"background-color:#1f232a;")
-        icon32 = QIcon()
-        icon32.addFile(u":/icons/icons/plus.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.zoomOutBtn.setIcon(icon32)
+        icon33 = QIcon()
+        icon33.addFile(u":/icons/icons/plus.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.zoomOutBtn.setIcon(icon33)
 
         self.horizontalLayout_18.addWidget(self.zoomOutBtn)
 
         self.zoomInBtn = QPushButton(self.frame_33)
         self.zoomInBtn.setObjectName(u"zoomInBtn")
         self.zoomInBtn.setStyleSheet(u"background-color:#1f232a;")
-        self.zoomInBtn.setIcon(icon23)
+        self.zoomInBtn.setIcon(icon24)
 
         self.horizontalLayout_18.addWidget(self.zoomInBtn)
 
         self.pushButton_17 = QPushButton(self.frame_33)
         self.pushButton_17.setObjectName(u"pushButton_17")
         self.pushButton_17.setStyleSheet(u"background-color:#1f232a;")
-        icon33 = QIcon()
-        icon33.addFile(u":/icons/icons/heart.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_17.setIcon(icon33)
+        icon34 = QIcon()
+        icon34.addFile(u":/icons/icons/heart.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_17.setIcon(icon34)
         self.pushButton_17.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_18.addWidget(self.pushButton_17)
@@ -939,9 +935,9 @@ class Ui_MainWindow(object):
         self.pushButton_19 = QPushButton(self.frame_33)
         self.pushButton_19.setObjectName(u"pushButton_19")
         self.pushButton_19.setStyleSheet(u"background-color:#1f232a;")
-        icon34 = QIcon()
-        icon34.addFile(u":/icons/icons/camera.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_19.setIcon(icon34)
+        icon35 = QIcon()
+        icon35.addFile(u":/icons/icons/camera.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_19.setIcon(icon35)
         self.pushButton_19.setIconSize(QSize(16, 16))
 
         self.horizontalLayout_18.addWidget(self.pushButton_19)
@@ -976,7 +972,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_17.setObjectName(u"verticalLayout_17")
         self.label_15 = QLabel(self.para_page)
         self.label_15.setObjectName(u"label_15")
-        self.label_15.setFont(font6)
+        self.label_15.setFont(font5)
 
         self.verticalLayout_17.addWidget(self.label_15)
 
@@ -984,9 +980,9 @@ class Ui_MainWindow(object):
         self.paraFrame.setObjectName(u"paraFrame")
         sizePolicy4.setHeightForWidth(self.paraFrame.sizePolicy().hasHeightForWidth())
         self.paraFrame.setSizePolicy(sizePolicy4)
-        font7 = QFont()
-        font7.setFamily(u"MS Serif")
-        self.paraFrame.setFont(font7)
+        font6 = QFont()
+        font6.setFamily(u"MS Serif")
+        self.paraFrame.setFont(font6)
         self.paraFrame.setFrameShape(QFrame.StyledPanel)
         self.paraFrame.setFrameShadow(QFrame.Raised)
         self.verticalLayout_23 = QVBoxLayout(self.paraFrame)
@@ -1019,12 +1015,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_49.setObjectName(u"verticalLayout_49")
         self.label_17 = QLabel(self.frame_38)
         self.label_17.setObjectName(u"label_17")
-        font8 = QFont()
-        font8.setFamily(u"Segoe Print")
-        font8.setPointSize(14)
-        font8.setBold(True)
-        font8.setWeight(75)
-        self.label_17.setFont(font8)
+        font7 = QFont()
+        font7.setFamily(u"Segoe Print")
+        font7.setPointSize(14)
+        font7.setBold(True)
+        font7.setWeight(75)
+        self.label_17.setFont(font7)
 
         self.verticalLayout_49.addWidget(self.label_17, 0, Qt.AlignTop)
 
@@ -1033,8 +1029,8 @@ class Ui_MainWindow(object):
 
         self.frame_39 = QFrame(self.frame_37)
         self.frame_39.setObjectName(u"frame_39")
-        sizePolicy8.setHeightForWidth(self.frame_39.sizePolicy().hasHeightForWidth())
-        self.frame_39.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.frame_39.sizePolicy().hasHeightForWidth())
+        self.frame_39.setSizePolicy(sizePolicy6)
         self.frame_39.setMinimumSize(QSize(300, 50))
         self.frame_39.setFrameShape(QFrame.StyledPanel)
         self.frame_39.setFrameShadow(QFrame.Raised)
@@ -1044,13 +1040,13 @@ class Ui_MainWindow(object):
         self.horizontalLayout_19.setContentsMargins(0, 0, 0, 0)
         self.balanceLabel = QLabel(self.frame_39)
         self.balanceLabel.setObjectName(u"balanceLabel")
-        sizePolicy8.setHeightForWidth(self.balanceLabel.sizePolicy().hasHeightForWidth())
-        self.balanceLabel.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.balanceLabel.sizePolicy().hasHeightForWidth())
+        self.balanceLabel.setSizePolicy(sizePolicy6)
         self.balanceLabel.setMinimumSize(QSize(200, 40))
-        font9 = QFont()
-        font9.setBold(True)
-        font9.setWeight(75)
-        self.balanceLabel.setFont(font9)
+        font8 = QFont()
+        font8.setBold(True)
+        font8.setWeight(75)
+        self.balanceLabel.setFont(font8)
         self.balanceLabel.setStyleSheet(u"background-color: rgb(255, 0, 127);\n"
 "border-radius:10px;")
         self.balanceLabel.setInputMethodHints(Qt.ImhHiddenText)
@@ -1060,8 +1056,8 @@ class Ui_MainWindow(object):
 
         self.checkBalanceBtn = QPushButton(self.frame_39)
         self.checkBalanceBtn.setObjectName(u"checkBalanceBtn")
-        sizePolicy8.setHeightForWidth(self.checkBalanceBtn.sizePolicy().hasHeightForWidth())
-        self.checkBalanceBtn.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.checkBalanceBtn.sizePolicy().hasHeightForWidth())
+        self.checkBalanceBtn.setSizePolicy(sizePolicy6)
         self.checkBalanceBtn.setMinimumSize(QSize(0, 40))
         self.checkBalanceBtn.setIconSize(QSize(24, 24))
         self.checkBalanceBtn.setCheckable(False)
@@ -1085,7 +1081,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_31.setObjectName(u"verticalLayout_31")
         self.label_26 = QLabel(self.frame_65)
         self.label_26.setObjectName(u"label_26")
-        self.label_26.setFont(font9)
+        self.label_26.setFont(font8)
         self.label_26.setTextFormat(Qt.AutoText)
 
         self.verticalLayout_31.addWidget(self.label_26)
@@ -1098,14 +1094,14 @@ class Ui_MainWindow(object):
         self.verticalLayout_44.setObjectName(u"verticalLayout_44")
         self.label_71 = QLabel(self.frame_67)
         self.label_71.setObjectName(u"label_71")
-        self.label_71.setFont(font9)
+        self.label_71.setFont(font8)
         self.label_71.setTextFormat(Qt.AutoText)
 
         self.verticalLayout_44.addWidget(self.label_71)
 
         self.label_72 = QLabel(self.frame_67)
         self.label_72.setObjectName(u"label_72")
-        self.label_72.setFont(font9)
+        self.label_72.setFont(font8)
         self.label_72.setTextFormat(Qt.AutoText)
 
         self.verticalLayout_44.addWidget(self.label_72)
@@ -1121,7 +1117,7 @@ class Ui_MainWindow(object):
         sizePolicy3.setHeightForWidth(self.pushButton_20.sizePolicy().hasHeightForWidth())
         self.pushButton_20.setSizePolicy(sizePolicy3)
         self.pushButton_20.setMinimumSize(QSize(40, 25))
-        self.pushButton_20.setFont(font9)
+        self.pushButton_20.setFont(font8)
         self.pushButton_20.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1132,7 +1128,7 @@ class Ui_MainWindow(object):
         sizePolicy3.setHeightForWidth(self.pushButton_8.sizePolicy().hasHeightForWidth())
         self.pushButton_8.setSizePolicy(sizePolicy3)
         self.pushButton_8.setMinimumSize(QSize(40, 25))
-        self.pushButton_8.setFont(font9)
+        self.pushButton_8.setFont(font8)
         self.pushButton_8.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1164,8 +1160,8 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.page_6)
         self.page_7 = QWidget()
         self.page_7.setObjectName(u"page_7")
-        sizePolicy8.setHeightForWidth(self.page_7.sizePolicy().hasHeightForWidth())
-        self.page_7.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.page_7.sizePolicy().hasHeightForWidth())
+        self.page_7.setSizePolicy(sizePolicy6)
         self.page_7.setStyleSheet(u"border-radius:10px;\n"
 "")
         self.horizontalLayout_38 = QHBoxLayout(self.page_7)
@@ -1173,50 +1169,50 @@ class Ui_MainWindow(object):
         self.horizontalLayout_38.setContentsMargins(0, 0, 0, 0)
         self.frame_70 = QFrame(self.page_7)
         self.frame_70.setObjectName(u"frame_70")
-        sizePolicy8.setHeightForWidth(self.frame_70.sizePolicy().hasHeightForWidth())
-        self.frame_70.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.frame_70.sizePolicy().hasHeightForWidth())
+        self.frame_70.setSizePolicy(sizePolicy6)
         self.frame_70.setFrameShape(QFrame.StyledPanel)
         self.frame_70.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_39 = QHBoxLayout(self.frame_70)
         self.horizontalLayout_39.setObjectName(u"horizontalLayout_39")
         self.pushButton_22 = QPushButton(self.frame_70)
         self.pushButton_22.setObjectName(u"pushButton_22")
-        icon35 = QIcon()
-        icon35.addFile(u":/icons/icons/sunrise.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_22.setIcon(icon35)
+        icon36 = QIcon()
+        icon36.addFile(u":/icons/icons/sunrise.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_22.setIcon(icon36)
         self.pushButton_22.setIconSize(QSize(40, 40))
 
         self.horizontalLayout_39.addWidget(self.pushButton_22)
 
         self.frame_71 = QFrame(self.frame_70)
         self.frame_71.setObjectName(u"frame_71")
-        sizePolicy8.setHeightForWidth(self.frame_71.sizePolicy().hasHeightForWidth())
-        self.frame_71.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.frame_71.sizePolicy().hasHeightForWidth())
+        self.frame_71.setSizePolicy(sizePolicy6)
         self.frame_71.setFrameShape(QFrame.StyledPanel)
         self.frame_71.setFrameShadow(QFrame.Raised)
         self.verticalLayout_76 = QVBoxLayout(self.frame_71)
         self.verticalLayout_76.setObjectName(u"verticalLayout_76")
         self.label_22 = QLabel(self.frame_71)
         self.label_22.setObjectName(u"label_22")
-        self.label_22.setFont(font9)
+        self.label_22.setFont(font8)
 
         self.verticalLayout_76.addWidget(self.label_22)
 
         self.label_23 = QLabel(self.frame_71)
         self.label_23.setObjectName(u"label_23")
-        self.label_23.setFont(font9)
+        self.label_23.setFont(font8)
 
         self.verticalLayout_76.addWidget(self.label_23)
 
         self.label_24 = QLabel(self.frame_71)
         self.label_24.setObjectName(u"label_24")
-        self.label_24.setFont(font9)
+        self.label_24.setFont(font8)
 
         self.verticalLayout_76.addWidget(self.label_24)
 
         self.label_25 = QLabel(self.frame_71)
         self.label_25.setObjectName(u"label_25")
-        self.label_25.setFont(font9)
+        self.label_25.setFont(font8)
 
         self.verticalLayout_76.addWidget(self.label_25)
 
@@ -1243,9 +1239,9 @@ class Ui_MainWindow(object):
         self.verticalLayout_77.setObjectName(u"verticalLayout_77")
         self.label_77 = QLabel(self.frame_72)
         self.label_77.setObjectName(u"label_77")
-        sizePolicy8.setHeightForWidth(self.label_77.sizePolicy().hasHeightForWidth())
-        self.label_77.setSizePolicy(sizePolicy8)
-        self.label_77.setFont(font9)
+        sizePolicy6.setHeightForWidth(self.label_77.sizePolicy().hasHeightForWidth())
+        self.label_77.setSizePolicy(sizePolicy6)
+        self.label_77.setFont(font8)
 
         self.verticalLayout_77.addWidget(self.label_77)
 
@@ -1263,23 +1259,23 @@ class Ui_MainWindow(object):
 
         self.searchAddressBar_2 = QPushButton(self.frame_72)
         self.searchAddressBar_2.setObjectName(u"searchAddressBar_2")
-        sizePolicy8.setHeightForWidth(self.searchAddressBar_2.sizePolicy().hasHeightForWidth())
-        self.searchAddressBar_2.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.searchAddressBar_2.sizePolicy().hasHeightForWidth())
+        self.searchAddressBar_2.setSizePolicy(sizePolicy6)
         self.searchAddressBar_2.setMinimumSize(QSize(30, 30))
         self.searchAddressBar_2.setFont(font)
         self.searchAddressBar_2.setStyleSheet(u"background-color: rgb(31, 35, 42);")
-        self.searchAddressBar_2.setIcon(icon30)
+        self.searchAddressBar_2.setIcon(icon31)
         self.searchAddressBar_2.setIconSize(QSize(16, 16))
 
         self.gridLayout_15.addWidget(self.searchAddressBar_2, 0, 2, 1, 1)
 
         self.CertBtn_3 = QPushButton(self.frame_72)
         self.CertBtn_3.setObjectName(u"CertBtn_3")
-        sizePolicy8.setHeightForWidth(self.CertBtn_3.sizePolicy().hasHeightForWidth())
-        self.CertBtn_3.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.CertBtn_3.sizePolicy().hasHeightForWidth())
+        self.CertBtn_3.setSizePolicy(sizePolicy6)
         self.CertBtn_3.setStyleSheet(u"background-color:#1f232a;\n"
 "border-radius:10px;")
-        self.CertBtn_3.setIcon(icon31)
+        self.CertBtn_3.setIcon(icon32)
 
         self.gridLayout_15.addWidget(self.CertBtn_3, 0, 0, 1, 1, Qt.AlignHCenter)
 
@@ -1288,7 +1284,7 @@ class Ui_MainWindow(object):
 
         self.label_78 = QLabel(self.frame_72)
         self.label_78.setObjectName(u"label_78")
-        self.label_78.setFont(font9)
+        self.label_78.setFont(font8)
 
         self.verticalLayout_77.addWidget(self.label_78)
 
@@ -1311,12 +1307,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_62.setObjectName(u"verticalLayout_62")
         self.frame_69 = QFrame(self.frame_68)
         self.frame_69.setObjectName(u"frame_69")
-        font10 = QFont()
-        font10.setPointSize(10)
-        font10.setBold(True)
-        font10.setUnderline(False)
-        font10.setWeight(75)
-        self.frame_69.setFont(font10)
+        font9 = QFont()
+        font9.setPointSize(10)
+        font9.setBold(True)
+        font9.setUnderline(False)
+        font9.setWeight(75)
+        self.frame_69.setFont(font9)
         self.frame_69.setStyleSheet(u"")
         self.frame_69.setFrameShape(QFrame.StyledPanel)
         self.frame_69.setFrameShadow(QFrame.Raised)
@@ -1324,42 +1320,42 @@ class Ui_MainWindow(object):
         self.horizontalLayout_36.setObjectName(u"horizontalLayout_36")
         self.label_73 = QLabel(self.frame_69)
         self.label_73.setObjectName(u"label_73")
-        font11 = QFont()
-        font11.setBold(True)
-        font11.setUnderline(True)
-        font11.setWeight(75)
-        self.label_73.setFont(font11)
+        font10 = QFont()
+        font10.setBold(True)
+        font10.setUnderline(True)
+        font10.setWeight(75)
+        self.label_73.setFont(font10)
         self.label_73.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_36.addWidget(self.label_73)
 
         self.label_74 = QLabel(self.frame_69)
         self.label_74.setObjectName(u"label_74")
-        font12 = QFont()
-        font12.setBold(True)
-        font12.setItalic(False)
-        font12.setUnderline(True)
-        font12.setWeight(75)
-        self.label_74.setFont(font12)
+        font11 = QFont()
+        font11.setBold(True)
+        font11.setItalic(False)
+        font11.setUnderline(True)
+        font11.setWeight(75)
+        self.label_74.setFont(font11)
         self.label_74.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_36.addWidget(self.label_74)
 
         self.label_75 = QLabel(self.frame_69)
         self.label_75.setObjectName(u"label_75")
-        self.label_75.setFont(font11)
+        self.label_75.setFont(font10)
         self.label_75.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_36.addWidget(self.label_75)
 
         self.label_76 = QLabel(self.frame_69)
         self.label_76.setObjectName(u"label_76")
-        font13 = QFont()
-        font13.setPointSize(8)
-        font13.setBold(True)
-        font13.setUnderline(True)
-        font13.setWeight(75)
-        self.label_76.setFont(font13)
+        font12 = QFont()
+        font12.setPointSize(8)
+        font12.setBold(True)
+        font12.setUnderline(True)
+        font12.setWeight(75)
+        self.label_76.setFont(font12)
         self.label_76.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_36.addWidget(self.label_76)
@@ -1377,7 +1373,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 342, 366))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 462, 366))
         self.verticalLayout_32 = QVBoxLayout(self.scrollAreaWidgetContents_3)
         self.verticalLayout_32.setObjectName(u"verticalLayout_32")
         self.widget_4 = QWidget(self.scrollAreaWidgetContents_3)
@@ -1397,35 +1393,35 @@ class Ui_MainWindow(object):
         sizePolicy10.setVerticalStretch(0)
         sizePolicy10.setHeightForWidth(self.pushButton_34.sizePolicy().hasHeightForWidth())
         self.pushButton_34.setSizePolicy(sizePolicy10)
-        font14 = QFont()
-        font14.setPointSize(8)
-        font14.setBold(True)
-        font14.setWeight(75)
-        self.pushButton_34.setFont(font14)
-        icon36 = QIcon()
-        icon36.addFile(u":/icons/icons/dot.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_34.setIcon(icon36)
+        font13 = QFont()
+        font13.setPointSize(8)
+        font13.setBold(True)
+        font13.setWeight(75)
+        self.pushButton_34.setFont(font13)
+        icon37 = QIcon()
+        icon37.addFile(u":/icons/icons/dot.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_34.setIcon(icon37)
         self.pushButton_34.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_26.addWidget(self.pushButton_34)
 
         self.label_27 = QLabel(self.frame_58)
         self.label_27.setObjectName(u"label_27")
-        self.label_27.setFont(font9)
+        self.label_27.setFont(font8)
         self.label_27.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_26.addWidget(self.label_27)
 
         self.label_28 = QLabel(self.frame_58)
         self.label_28.setObjectName(u"label_28")
-        self.label_28.setFont(font9)
+        self.label_28.setFont(font8)
         self.label_28.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_26.addWidget(self.label_28)
 
         self.label_29 = QLabel(self.frame_58)
         self.label_29.setObjectName(u"label_29")
-        self.label_29.setFont(font9)
+        self.label_29.setFont(font8)
         self.label_29.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_26.addWidget(self.label_29)
@@ -1443,32 +1439,32 @@ class Ui_MainWindow(object):
         self.pushButton_35.setObjectName(u"pushButton_35")
         sizePolicy10.setHeightForWidth(self.pushButton_35.sizePolicy().hasHeightForWidth())
         self.pushButton_35.setSizePolicy(sizePolicy10)
-        self.pushButton_35.setFont(font14)
+        self.pushButton_35.setFont(font13)
         self.pushButton_35.setStyleSheet(u"background-color:transparent;")
-        icon37 = QIcon()
-        icon37.addFile(u":/icons/icons/bnb.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_35.setIcon(icon37)
+        icon38 = QIcon()
+        icon38.addFile(u":/icons/icons/bnb.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_35.setIcon(icon38)
         self.pushButton_35.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_27.addWidget(self.pushButton_35)
 
         self.label_31 = QLabel(self.frame_59)
         self.label_31.setObjectName(u"label_31")
-        self.label_31.setFont(font9)
+        self.label_31.setFont(font8)
         self.label_31.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_27.addWidget(self.label_31)
 
         self.label_30 = QLabel(self.frame_59)
         self.label_30.setObjectName(u"label_30")
-        self.label_30.setFont(font9)
+        self.label_30.setFont(font8)
         self.label_30.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_27.addWidget(self.label_30)
 
         self.label_32 = QLabel(self.frame_59)
         self.label_32.setObjectName(u"label_32")
-        self.label_32.setFont(font9)
+        self.label_32.setFont(font8)
         self.label_32.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_27.addWidget(self.label_32)
@@ -1486,31 +1482,31 @@ class Ui_MainWindow(object):
         self.pushButton_36.setObjectName(u"pushButton_36")
         sizePolicy10.setHeightForWidth(self.pushButton_36.sizePolicy().hasHeightForWidth())
         self.pushButton_36.setSizePolicy(sizePolicy10)
-        self.pushButton_36.setFont(font14)
-        icon38 = QIcon()
-        icon38.addFile(u":/icons/icons/eos.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_36.setIcon(icon38)
+        self.pushButton_36.setFont(font13)
+        icon39 = QIcon()
+        icon39.addFile(u":/icons/icons/eos.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_36.setIcon(icon39)
         self.pushButton_36.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_28.addWidget(self.pushButton_36)
 
         self.label_60 = QLabel(self.frame_60)
         self.label_60.setObjectName(u"label_60")
-        self.label_60.setFont(font9)
+        self.label_60.setFont(font8)
         self.label_60.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_28.addWidget(self.label_60)
 
         self.label_59 = QLabel(self.frame_60)
         self.label_59.setObjectName(u"label_59")
-        self.label_59.setFont(font9)
+        self.label_59.setFont(font8)
         self.label_59.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_28.addWidget(self.label_59)
 
         self.label_61 = QLabel(self.frame_60)
         self.label_61.setObjectName(u"label_61")
-        self.label_61.setFont(font9)
+        self.label_61.setFont(font8)
         self.label_61.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_28.addWidget(self.label_61)
@@ -1528,31 +1524,31 @@ class Ui_MainWindow(object):
         self.pushButton_37.setObjectName(u"pushButton_37")
         sizePolicy10.setHeightForWidth(self.pushButton_37.sizePolicy().hasHeightForWidth())
         self.pushButton_37.setSizePolicy(sizePolicy10)
-        self.pushButton_37.setFont(font14)
-        icon39 = QIcon()
-        icon39.addFile(u":/icons/icons/etherum.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_37.setIcon(icon39)
+        self.pushButton_37.setFont(font13)
+        icon40 = QIcon()
+        icon40.addFile(u":/icons/icons/etherum.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_37.setIcon(icon40)
         self.pushButton_37.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_31.addWidget(self.pushButton_37)
 
         self.label_63 = QLabel(self.frame_61)
         self.label_63.setObjectName(u"label_63")
-        self.label_63.setFont(font9)
+        self.label_63.setFont(font8)
         self.label_63.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_31.addWidget(self.label_63)
 
         self.label_62 = QLabel(self.frame_61)
         self.label_62.setObjectName(u"label_62")
-        self.label_62.setFont(font9)
+        self.label_62.setFont(font8)
         self.label_62.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_31.addWidget(self.label_62)
 
         self.label_64 = QLabel(self.frame_61)
         self.label_64.setObjectName(u"label_64")
-        self.label_64.setFont(font9)
+        self.label_64.setFont(font8)
         self.label_64.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_31.addWidget(self.label_64)
@@ -1570,31 +1566,31 @@ class Ui_MainWindow(object):
         self.pushButton_38.setObjectName(u"pushButton_38")
         sizePolicy10.setHeightForWidth(self.pushButton_38.sizePolicy().hasHeightForWidth())
         self.pushButton_38.setSizePolicy(sizePolicy10)
-        self.pushButton_38.setFont(font14)
-        icon40 = QIcon()
-        icon40.addFile(u":/icons/icons/polygon.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_38.setIcon(icon40)
+        self.pushButton_38.setFont(font13)
+        icon41 = QIcon()
+        icon41.addFile(u":/icons/icons/polygon.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_38.setIcon(icon41)
         self.pushButton_38.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_32.addWidget(self.pushButton_38)
 
         self.label_44 = QLabel(self.frame_56)
         self.label_44.setObjectName(u"label_44")
-        self.label_44.setFont(font9)
+        self.label_44.setFont(font8)
         self.label_44.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_32.addWidget(self.label_44)
 
         self.label_37 = QLabel(self.frame_56)
         self.label_37.setObjectName(u"label_37")
-        self.label_37.setFont(font9)
+        self.label_37.setFont(font8)
         self.label_37.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_32.addWidget(self.label_37)
 
         self.label_45 = QLabel(self.frame_56)
         self.label_45.setObjectName(u"label_45")
-        self.label_45.setFont(font9)
+        self.label_45.setFont(font8)
         self.label_45.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_32.addWidget(self.label_45)
@@ -1612,31 +1608,31 @@ class Ui_MainWindow(object):
         self.pushButton_39.setObjectName(u"pushButton_39")
         sizePolicy10.setHeightForWidth(self.pushButton_39.sizePolicy().hasHeightForWidth())
         self.pushButton_39.setSizePolicy(sizePolicy10)
-        self.pushButton_39.setFont(font14)
-        icon41 = QIcon()
-        icon41.addFile(u":/icons/icons/tether.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_39.setIcon(icon41)
+        self.pushButton_39.setFont(font13)
+        icon42 = QIcon()
+        icon42.addFile(u":/icons/icons/tether.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_39.setIcon(icon42)
         self.pushButton_39.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_33.addWidget(self.pushButton_39)
 
         self.label_66 = QLabel(self.frame_63)
         self.label_66.setObjectName(u"label_66")
-        self.label_66.setFont(font9)
+        self.label_66.setFont(font8)
         self.label_66.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_33.addWidget(self.label_66)
 
         self.label_65 = QLabel(self.frame_63)
         self.label_65.setObjectName(u"label_65")
-        self.label_65.setFont(font9)
+        self.label_65.setFont(font8)
         self.label_65.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_33.addWidget(self.label_65)
 
         self.label_67 = QLabel(self.frame_63)
         self.label_67.setObjectName(u"label_67")
-        self.label_67.setFont(font9)
+        self.label_67.setFont(font8)
         self.label_67.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_33.addWidget(self.label_67)
@@ -1654,31 +1650,31 @@ class Ui_MainWindow(object):
         self.pushButton_40.setObjectName(u"pushButton_40")
         sizePolicy10.setHeightForWidth(self.pushButton_40.sizePolicy().hasHeightForWidth())
         self.pushButton_40.setSizePolicy(sizePolicy10)
-        self.pushButton_40.setFont(font14)
-        icon42 = QIcon()
-        icon42.addFile(u":/icons/icons/bitcoin.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_40.setIcon(icon42)
+        self.pushButton_40.setFont(font13)
+        icon43 = QIcon()
+        icon43.addFile(u":/icons/icons/bitcoin.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_40.setIcon(icon43)
         self.pushButton_40.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_34.addWidget(self.pushButton_40)
 
         self.label_68 = QLabel(self.frame_64)
         self.label_68.setObjectName(u"label_68")
-        self.label_68.setFont(font9)
+        self.label_68.setFont(font8)
         self.label_68.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_34.addWidget(self.label_68)
 
         self.label_69 = QLabel(self.frame_64)
         self.label_69.setObjectName(u"label_69")
-        self.label_69.setFont(font9)
+        self.label_69.setFont(font8)
         self.label_69.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_34.addWidget(self.label_69)
 
         self.label_70 = QLabel(self.frame_64)
         self.label_70.setObjectName(u"label_70")
-        self.label_70.setFont(font9)
+        self.label_70.setFont(font8)
         self.label_70.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_34.addWidget(self.label_70)
@@ -1764,7 +1760,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_44.sizePolicy().hasHeightForWidth())
         self.pushButton_44.setSizePolicy(sizePolicy11)
         self.pushButton_44.setMinimumSize(QSize(50, 20))
-        self.pushButton_44.setFont(font9)
+        self.pushButton_44.setFont(font8)
         self.pushButton_44.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1775,7 +1771,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_45.sizePolicy().hasHeightForWidth())
         self.pushButton_45.setSizePolicy(sizePolicy11)
         self.pushButton_45.setMinimumSize(QSize(50, 20))
-        self.pushButton_45.setFont(font9)
+        self.pushButton_45.setFont(font8)
         self.pushButton_45.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1825,7 +1821,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_54.sizePolicy().hasHeightForWidth())
         self.pushButton_54.setSizePolicy(sizePolicy11)
         self.pushButton_54.setMinimumSize(QSize(50, 20))
-        self.pushButton_54.setFont(font9)
+        self.pushButton_54.setFont(font8)
         self.pushButton_54.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1836,7 +1832,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_55.sizePolicy().hasHeightForWidth())
         self.pushButton_55.setSizePolicy(sizePolicy11)
         self.pushButton_55.setMinimumSize(QSize(50, 20))
-        self.pushButton_55.setFont(font9)
+        self.pushButton_55.setFont(font8)
         self.pushButton_55.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1887,7 +1883,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_52.sizePolicy().hasHeightForWidth())
         self.pushButton_52.setSizePolicy(sizePolicy11)
         self.pushButton_52.setMinimumSize(QSize(50, 20))
-        self.pushButton_52.setFont(font9)
+        self.pushButton_52.setFont(font8)
         self.pushButton_52.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1898,7 +1894,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_53.sizePolicy().hasHeightForWidth())
         self.pushButton_53.setSizePolicy(sizePolicy11)
         self.pushButton_53.setMinimumSize(QSize(50, 20))
-        self.pushButton_53.setFont(font9)
+        self.pushButton_53.setFont(font8)
         self.pushButton_53.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1948,7 +1944,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_50.sizePolicy().hasHeightForWidth())
         self.pushButton_50.setSizePolicy(sizePolicy11)
         self.pushButton_50.setMinimumSize(QSize(50, 20))
-        self.pushButton_50.setFont(font9)
+        self.pushButton_50.setFont(font8)
         self.pushButton_50.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -1959,7 +1955,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_51.sizePolicy().hasHeightForWidth())
         self.pushButton_51.setSizePolicy(sizePolicy11)
         self.pushButton_51.setMinimumSize(QSize(50, 20))
-        self.pushButton_51.setFont(font9)
+        self.pushButton_51.setFont(font8)
         self.pushButton_51.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -2011,7 +2007,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_48.sizePolicy().hasHeightForWidth())
         self.pushButton_48.setSizePolicy(sizePolicy11)
         self.pushButton_48.setMinimumSize(QSize(50, 20))
-        self.pushButton_48.setFont(font9)
+        self.pushButton_48.setFont(font8)
         self.pushButton_48.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -2022,7 +2018,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_49.sizePolicy().hasHeightForWidth())
         self.pushButton_49.setSizePolicy(sizePolicy11)
         self.pushButton_49.setMinimumSize(QSize(50, 20))
-        self.pushButton_49.setFont(font9)
+        self.pushButton_49.setFont(font8)
         self.pushButton_49.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -2074,7 +2070,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_46.sizePolicy().hasHeightForWidth())
         self.pushButton_46.setSizePolicy(sizePolicy11)
         self.pushButton_46.setMinimumSize(QSize(50, 20))
-        self.pushButton_46.setFont(font9)
+        self.pushButton_46.setFont(font8)
         self.pushButton_46.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -2085,7 +2081,7 @@ class Ui_MainWindow(object):
         sizePolicy11.setHeightForWidth(self.pushButton_47.sizePolicy().hasHeightForWidth())
         self.pushButton_47.setSizePolicy(sizePolicy11)
         self.pushButton_47.setMinimumSize(QSize(50, 20))
-        self.pushButton_47.setFont(font9)
+        self.pushButton_47.setFont(font8)
         self.pushButton_47.setStyleSheet(u"background-color: #351c75;\n"
 "border-radius:10px;")
 
@@ -2102,8 +2098,8 @@ class Ui_MainWindow(object):
 
         self.frame_12 = QFrame(self.frame_10)
         self.frame_12.setObjectName(u"frame_12")
-        sizePolicy7.setHeightForWidth(self.frame_12.sizePolicy().hasHeightForWidth())
-        self.frame_12.setSizePolicy(sizePolicy7)
+        sizePolicy8.setHeightForWidth(self.frame_12.sizePolicy().hasHeightForWidth())
+        self.frame_12.setSizePolicy(sizePolicy8)
         self.frame_12.setFrameShape(QFrame.StyledPanel)
         self.frame_12.setFrameShadow(QFrame.Raised)
         self.trading_charts_cont = QGridLayout(self.frame_12)
@@ -2134,8 +2130,8 @@ class Ui_MainWindow(object):
 
         self.start_stopBtn = QPushButton(self.progressBarContainer)
         self.start_stopBtn.setObjectName(u"start_stopBtn")
-        sizePolicy8.setHeightForWidth(self.start_stopBtn.sizePolicy().hasHeightForWidth())
-        self.start_stopBtn.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.start_stopBtn.sizePolicy().hasHeightForWidth())
+        self.start_stopBtn.setSizePolicy(sizePolicy6)
         self.start_stopBtn.setMinimumSize(QSize(100, 30))
         self.start_stopBtn.setFont(font1)
 
@@ -2146,25 +2142,25 @@ class Ui_MainWindow(object):
 
         self.cpu_freq_label = QLabel(self.mining_page)
         self.cpu_freq_label.setObjectName(u"cpu_freq_label")
-        sizePolicy8.setHeightForWidth(self.cpu_freq_label.sizePolicy().hasHeightForWidth())
-        self.cpu_freq_label.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.cpu_freq_label.sizePolicy().hasHeightForWidth())
+        self.cpu_freq_label.setSizePolicy(sizePolicy6)
         self.cpu_freq_label.setMinimumSize(QSize(30, 30))
-        font15 = QFont()
-        font15.setFamily(u"Segoe UI")
-        font15.setPointSize(12)
-        font15.setBold(True)
-        font15.setWeight(75)
-        self.cpu_freq_label.setFont(font15)
+        font14 = QFont()
+        font14.setFamily(u"Segoe UI")
+        font14.setPointSize(12)
+        font14.setBold(True)
+        font14.setWeight(75)
+        self.cpu_freq_label.setFont(font14)
         self.cpu_freq_label.setStyleSheet(u"background-color: rgb(33, 37, 43);")
 
         self.verticalLayout_21.addWidget(self.cpu_freq_label)
 
         self.cpu_processors_label = QLabel(self.mining_page)
         self.cpu_processors_label.setObjectName(u"cpu_processors_label")
-        sizePolicy8.setHeightForWidth(self.cpu_processors_label.sizePolicy().hasHeightForWidth())
-        self.cpu_processors_label.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.cpu_processors_label.sizePolicy().hasHeightForWidth())
+        self.cpu_processors_label.setSizePolicy(sizePolicy6)
         self.cpu_processors_label.setMinimumSize(QSize(30, 30))
-        self.cpu_processors_label.setFont(font15)
+        self.cpu_processors_label.setFont(font14)
         self.cpu_processors_label.setStyleSheet(u"background-color: rgb(33, 37, 43);")
         self.cpu_processors_label.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
 
@@ -2221,15 +2217,15 @@ class Ui_MainWindow(object):
 
         self.pushButton_15 = QPushButton(self.frame_28)
         self.pushButton_15.setObjectName(u"pushButton_15")
-        sizePolicy8.setHeightForWidth(self.pushButton_15.sizePolicy().hasHeightForWidth())
-        self.pushButton_15.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_15.sizePolicy().hasHeightForWidth())
+        self.pushButton_15.setSizePolicy(sizePolicy6)
         self.pushButton_15.setMinimumSize(QSize(60, 30))
-        self.pushButton_15.setFont(font9)
+        self.pushButton_15.setFont(font8)
         self.pushButton_15.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        icon43 = QIcon()
-        icon43.addFile(u":/icons/icons/slack.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_15.setIcon(icon43)
+        icon44 = QIcon()
+        icon44.addFile(u":/icons/icons/slack.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_15.setIcon(icon44)
 
         self.verticalLayout_46.addWidget(self.pushButton_15, 0, Qt.AlignHCenter)
 
@@ -2257,13 +2253,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_4 = QPushButton(self.frame_15)
         self.pushButton_4.setObjectName(u"pushButton_4")
-        sizePolicy8.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
-        self.pushButton_4.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
+        self.pushButton_4.setSizePolicy(sizePolicy6)
         self.pushButton_4.setMinimumSize(QSize(60, 30))
-        self.pushButton_4.setFont(font9)
+        self.pushButton_4.setFont(font8)
         self.pushButton_4.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_4.setIcon(icon43)
+        self.pushButton_4.setIcon(icon44)
 
         self.verticalLayout_33.addWidget(self.pushButton_4, 0, Qt.AlignHCenter)
 
@@ -2288,13 +2284,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_7 = QPushButton(self.frame_16)
         self.pushButton_7.setObjectName(u"pushButton_7")
-        sizePolicy8.setHeightForWidth(self.pushButton_7.sizePolicy().hasHeightForWidth())
-        self.pushButton_7.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_7.sizePolicy().hasHeightForWidth())
+        self.pushButton_7.setSizePolicy(sizePolicy6)
         self.pushButton_7.setMinimumSize(QSize(60, 30))
-        self.pushButton_7.setFont(font9)
+        self.pushButton_7.setFont(font8)
         self.pushButton_7.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_7.setIcon(icon43)
+        self.pushButton_7.setIcon(icon44)
 
         self.verticalLayout_34.addWidget(self.pushButton_7, 0, Qt.AlignHCenter)
 
@@ -2322,13 +2318,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_30 = QPushButton(self.frame_54)
         self.pushButton_30.setObjectName(u"pushButton_30")
-        sizePolicy8.setHeightForWidth(self.pushButton_30.sizePolicy().hasHeightForWidth())
-        self.pushButton_30.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_30.sizePolicy().hasHeightForWidth())
+        self.pushButton_30.setSizePolicy(sizePolicy6)
         self.pushButton_30.setMinimumSize(QSize(60, 30))
-        self.pushButton_30.setFont(font9)
+        self.pushButton_30.setFont(font8)
         self.pushButton_30.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_30.setIcon(icon43)
+        self.pushButton_30.setIcon(icon44)
 
         self.verticalLayout_73.addWidget(self.pushButton_30, 0, Qt.AlignHCenter)
 
@@ -2356,13 +2352,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_16 = QPushButton(self.frame_51)
         self.pushButton_16.setObjectName(u"pushButton_16")
-        sizePolicy8.setHeightForWidth(self.pushButton_16.sizePolicy().hasHeightForWidth())
-        self.pushButton_16.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_16.sizePolicy().hasHeightForWidth())
+        self.pushButton_16.setSizePolicy(sizePolicy6)
         self.pushButton_16.setMinimumSize(QSize(60, 30))
-        self.pushButton_16.setFont(font9)
+        self.pushButton_16.setFont(font8)
         self.pushButton_16.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_16.setIcon(icon43)
+        self.pushButton_16.setIcon(icon44)
 
         self.verticalLayout_70.addWidget(self.pushButton_16, 0, Qt.AlignHCenter)
 
@@ -2390,13 +2386,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_6 = QPushButton(self.frame_27)
         self.pushButton_6.setObjectName(u"pushButton_6")
-        sizePolicy8.setHeightForWidth(self.pushButton_6.sizePolicy().hasHeightForWidth())
-        self.pushButton_6.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_6.sizePolicy().hasHeightForWidth())
+        self.pushButton_6.setSizePolicy(sizePolicy6)
         self.pushButton_6.setMinimumSize(QSize(60, 30))
-        self.pushButton_6.setFont(font9)
+        self.pushButton_6.setFont(font8)
         self.pushButton_6.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_6.setIcon(icon43)
+        self.pushButton_6.setIcon(icon44)
 
         self.verticalLayout_45.addWidget(self.pushButton_6, 0, Qt.AlignHCenter)
 
@@ -2421,13 +2417,13 @@ class Ui_MainWindow(object):
 
         self.pushButton = QPushButton(self.frame_11)
         self.pushButton.setObjectName(u"pushButton")
-        sizePolicy8.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
-        self.pushButton.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
+        self.pushButton.setSizePolicy(sizePolicy6)
         self.pushButton.setMinimumSize(QSize(60, 30))
-        self.pushButton.setFont(font9)
+        self.pushButton.setFont(font8)
         self.pushButton.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton.setIcon(icon43)
+        self.pushButton.setIcon(icon44)
 
         self.verticalLayout_30.addWidget(self.pushButton, 0, Qt.AlignHCenter)
 
@@ -2491,15 +2487,15 @@ class Ui_MainWindow(object):
 
         self.pushButton_10 = QPushButton(self.frame_17)
         self.pushButton_10.setObjectName(u"pushButton_10")
-        sizePolicy8.setHeightForWidth(self.pushButton_10.sizePolicy().hasHeightForWidth())
-        self.pushButton_10.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_10.sizePolicy().hasHeightForWidth())
+        self.pushButton_10.setSizePolicy(sizePolicy6)
         self.pushButton_10.setMinimumSize(QSize(60, 30))
-        self.pushButton_10.setFont(font9)
+        self.pushButton_10.setFont(font8)
         self.pushButton_10.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        icon44 = QIcon()
-        icon44.addFile(u":/icons/icons/box.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_10.setIcon(icon44)
+        icon45 = QIcon()
+        icon45.addFile(u":/icons/icons/box.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_10.setIcon(icon45)
 
         self.verticalLayout_37.addWidget(self.pushButton_10, 0, Qt.AlignHCenter)
 
@@ -2524,13 +2520,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_11 = QPushButton(self.frame_18)
         self.pushButton_11.setObjectName(u"pushButton_11")
-        sizePolicy8.setHeightForWidth(self.pushButton_11.sizePolicy().hasHeightForWidth())
-        self.pushButton_11.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_11.sizePolicy().hasHeightForWidth())
+        self.pushButton_11.setSizePolicy(sizePolicy6)
         self.pushButton_11.setMinimumSize(QSize(60, 30))
-        self.pushButton_11.setFont(font9)
+        self.pushButton_11.setFont(font8)
         self.pushButton_11.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_11.setIcon(icon44)
+        self.pushButton_11.setIcon(icon45)
 
         self.verticalLayout_38.addWidget(self.pushButton_11, 0, Qt.AlignHCenter)
 
@@ -2555,13 +2551,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_12 = QPushButton(self.frame_19)
         self.pushButton_12.setObjectName(u"pushButton_12")
-        sizePolicy8.setHeightForWidth(self.pushButton_12.sizePolicy().hasHeightForWidth())
-        self.pushButton_12.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_12.sizePolicy().hasHeightForWidth())
+        self.pushButton_12.setSizePolicy(sizePolicy6)
         self.pushButton_12.setMinimumSize(QSize(60, 30))
-        self.pushButton_12.setFont(font9)
+        self.pushButton_12.setFont(font8)
         self.pushButton_12.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_12.setIcon(icon44)
+        self.pushButton_12.setIcon(icon45)
 
         self.verticalLayout_39.addWidget(self.pushButton_12, 0, Qt.AlignHCenter)
 
@@ -2586,10 +2582,10 @@ class Ui_MainWindow(object):
 
         self.pushButton_24 = QPushButton(self.frame_24)
         self.pushButton_24.setObjectName(u"pushButton_24")
-        sizePolicy8.setHeightForWidth(self.pushButton_24.sizePolicy().hasHeightForWidth())
-        self.pushButton_24.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_24.sizePolicy().hasHeightForWidth())
+        self.pushButton_24.setSizePolicy(sizePolicy6)
         self.pushButton_24.setMinimumSize(QSize(60, 30))
-        self.pushButton_24.setFont(font9)
+        self.pushButton_24.setFont(font8)
         self.pushButton_24.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
 
@@ -2616,10 +2612,10 @@ class Ui_MainWindow(object):
 
         self.pushButton_25 = QPushButton(self.frame_25)
         self.pushButton_25.setObjectName(u"pushButton_25")
-        sizePolicy8.setHeightForWidth(self.pushButton_25.sizePolicy().hasHeightForWidth())
-        self.pushButton_25.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_25.sizePolicy().hasHeightForWidth())
+        self.pushButton_25.setSizePolicy(sizePolicy6)
         self.pushButton_25.setMinimumSize(QSize(60, 30))
-        self.pushButton_25.setFont(font9)
+        self.pushButton_25.setFont(font8)
         self.pushButton_25.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
 
@@ -2646,13 +2642,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_23 = QPushButton(self.frame_23)
         self.pushButton_23.setObjectName(u"pushButton_23")
-        sizePolicy8.setHeightForWidth(self.pushButton_23.sizePolicy().hasHeightForWidth())
-        self.pushButton_23.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_23.sizePolicy().hasHeightForWidth())
+        self.pushButton_23.setSizePolicy(sizePolicy6)
         self.pushButton_23.setMinimumSize(QSize(60, 30))
-        self.pushButton_23.setFont(font9)
+        self.pushButton_23.setFont(font8)
         self.pushButton_23.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_23.setIcon(icon44)
+        self.pushButton_23.setIcon(icon45)
 
         self.verticalLayout_63.addWidget(self.pushButton_23, 0, Qt.AlignHCenter)
 
@@ -2677,13 +2673,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_29 = QPushButton(self.frame_50)
         self.pushButton_29.setObjectName(u"pushButton_29")
-        sizePolicy8.setHeightForWidth(self.pushButton_29.sizePolicy().hasHeightForWidth())
-        self.pushButton_29.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_29.sizePolicy().hasHeightForWidth())
+        self.pushButton_29.setSizePolicy(sizePolicy6)
         self.pushButton_29.setMinimumSize(QSize(60, 30))
-        self.pushButton_29.setFont(font9)
+        self.pushButton_29.setFont(font8)
         self.pushButton_29.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_29.setIcon(icon44)
+        self.pushButton_29.setIcon(icon45)
 
         self.verticalLayout_69.addWidget(self.pushButton_29)
 
@@ -2708,13 +2704,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_27 = QPushButton(self.frame_48)
         self.pushButton_27.setObjectName(u"pushButton_27")
-        sizePolicy8.setHeightForWidth(self.pushButton_27.sizePolicy().hasHeightForWidth())
-        self.pushButton_27.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_27.sizePolicy().hasHeightForWidth())
+        self.pushButton_27.setSizePolicy(sizePolicy6)
         self.pushButton_27.setMinimumSize(QSize(60, 30))
-        self.pushButton_27.setFont(font9)
+        self.pushButton_27.setFont(font8)
         self.pushButton_27.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_27.setIcon(icon44)
+        self.pushButton_27.setIcon(icon45)
 
         self.verticalLayout_67.addWidget(self.pushButton_27, 0, Qt.AlignHCenter)
 
@@ -2739,13 +2735,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_32 = QPushButton(self.frame_53)
         self.pushButton_32.setObjectName(u"pushButton_32")
-        sizePolicy8.setHeightForWidth(self.pushButton_32.sizePolicy().hasHeightForWidth())
-        self.pushButton_32.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_32.sizePolicy().hasHeightForWidth())
+        self.pushButton_32.setSizePolicy(sizePolicy6)
         self.pushButton_32.setMinimumSize(QSize(60, 30))
-        self.pushButton_32.setFont(font9)
+        self.pushButton_32.setFont(font8)
         self.pushButton_32.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_32.setIcon(icon44)
+        self.pushButton_32.setIcon(icon45)
 
         self.verticalLayout_72.addWidget(self.pushButton_32, 0, Qt.AlignHCenter)
 
@@ -2770,13 +2766,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_31 = QPushButton(self.frame_52)
         self.pushButton_31.setObjectName(u"pushButton_31")
-        sizePolicy8.setHeightForWidth(self.pushButton_31.sizePolicy().hasHeightForWidth())
-        self.pushButton_31.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_31.sizePolicy().hasHeightForWidth())
+        self.pushButton_31.setSizePolicy(sizePolicy6)
         self.pushButton_31.setMinimumSize(QSize(60, 30))
-        self.pushButton_31.setFont(font9)
+        self.pushButton_31.setFont(font8)
         self.pushButton_31.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_31.setIcon(icon44)
+        self.pushButton_31.setIcon(icon45)
 
         self.verticalLayout_71.addWidget(self.pushButton_31, 0, Qt.AlignHCenter)
 
@@ -2801,13 +2797,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_14 = QPushButton(self.frame_21)
         self.pushButton_14.setObjectName(u"pushButton_14")
-        sizePolicy8.setHeightForWidth(self.pushButton_14.sizePolicy().hasHeightForWidth())
-        self.pushButton_14.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_14.sizePolicy().hasHeightForWidth())
+        self.pushButton_14.setSizePolicy(sizePolicy6)
         self.pushButton_14.setMinimumSize(QSize(60, 30))
-        self.pushButton_14.setFont(font9)
+        self.pushButton_14.setFont(font8)
         self.pushButton_14.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_14.setIcon(icon44)
+        self.pushButton_14.setIcon(icon45)
 
         self.verticalLayout_41.addWidget(self.pushButton_14, 0, Qt.AlignHCenter)
 
@@ -2832,13 +2828,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_13 = QPushButton(self.frame_20)
         self.pushButton_13.setObjectName(u"pushButton_13")
-        sizePolicy8.setHeightForWidth(self.pushButton_13.sizePolicy().hasHeightForWidth())
-        self.pushButton_13.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_13.sizePolicy().hasHeightForWidth())
+        self.pushButton_13.setSizePolicy(sizePolicy6)
         self.pushButton_13.setMinimumSize(QSize(60, 30))
-        self.pushButton_13.setFont(font9)
+        self.pushButton_13.setFont(font8)
         self.pushButton_13.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_13.setIcon(icon44)
+        self.pushButton_13.setIcon(icon45)
 
         self.verticalLayout_40.addWidget(self.pushButton_13, 0, Qt.AlignHCenter)
 
@@ -2863,13 +2859,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_26 = QPushButton(self.frame_26)
         self.pushButton_26.setObjectName(u"pushButton_26")
-        sizePolicy8.setHeightForWidth(self.pushButton_26.sizePolicy().hasHeightForWidth())
-        self.pushButton_26.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_26.sizePolicy().hasHeightForWidth())
+        self.pushButton_26.setSizePolicy(sizePolicy6)
         self.pushButton_26.setMinimumSize(QSize(60, 30))
-        self.pushButton_26.setFont(font9)
+        self.pushButton_26.setFont(font8)
         self.pushButton_26.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_26.setIcon(icon44)
+        self.pushButton_26.setIcon(icon45)
 
         self.verticalLayout_66.addWidget(self.pushButton_26, 0, Qt.AlignHCenter)
 
@@ -2894,13 +2890,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_18 = QPushButton(self.frame_22)
         self.pushButton_18.setObjectName(u"pushButton_18")
-        sizePolicy8.setHeightForWidth(self.pushButton_18.sizePolicy().hasHeightForWidth())
-        self.pushButton_18.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_18.sizePolicy().hasHeightForWidth())
+        self.pushButton_18.setSizePolicy(sizePolicy6)
         self.pushButton_18.setMinimumSize(QSize(60, 30))
-        self.pushButton_18.setFont(font9)
+        self.pushButton_18.setFont(font8)
         self.pushButton_18.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_18.setIcon(icon44)
+        self.pushButton_18.setIcon(icon45)
 
         self.verticalLayout_42.addWidget(self.pushButton_18, 0, Qt.AlignHCenter)
 
@@ -2925,13 +2921,13 @@ class Ui_MainWindow(object):
 
         self.pushButton_28 = QPushButton(self.frame_49)
         self.pushButton_28.setObjectName(u"pushButton_28")
-        sizePolicy8.setHeightForWidth(self.pushButton_28.sizePolicy().hasHeightForWidth())
-        self.pushButton_28.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.pushButton_28.sizePolicy().hasHeightForWidth())
+        self.pushButton_28.setSizePolicy(sizePolicy6)
         self.pushButton_28.setMinimumSize(QSize(60, 30))
-        self.pushButton_28.setFont(font9)
+        self.pushButton_28.setFont(font8)
         self.pushButton_28.setStyleSheet(u"background-color:#351c75;\n"
 "border-radius:10px;")
-        self.pushButton_28.setIcon(icon44)
+        self.pushButton_28.setIcon(icon45)
 
         self.verticalLayout_68.addWidget(self.pushButton_28, 0, Qt.AlignHCenter)
 
@@ -2979,7 +2975,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_60.setObjectName(u"verticalLayout_60")
         self.label_33 = QLabel(self.frame_45)
         self.label_33.setObjectName(u"label_33")
-        self.label_33.setFont(font8)
+        self.label_33.setFont(font7)
 
         self.verticalLayout_60.addWidget(self.label_33, 0, Qt.AlignTop)
 
@@ -2988,8 +2984,8 @@ class Ui_MainWindow(object):
 
         self.frame_46 = QFrame(self.frame_44)
         self.frame_46.setObjectName(u"frame_46")
-        sizePolicy8.setHeightForWidth(self.frame_46.sizePolicy().hasHeightForWidth())
-        self.frame_46.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.frame_46.sizePolicy().hasHeightForWidth())
+        self.frame_46.setSizePolicy(sizePolicy6)
         self.frame_46.setMinimumSize(QSize(300, 50))
         self.frame_46.setFrameShape(QFrame.StyledPanel)
         self.frame_46.setFrameShadow(QFrame.Plain)
@@ -2999,10 +2995,10 @@ class Ui_MainWindow(object):
         self.horizontalLayout_22.setContentsMargins(0, 0, 0, 0)
         self.balanceLabel_2 = QLabel(self.frame_46)
         self.balanceLabel_2.setObjectName(u"balanceLabel_2")
-        sizePolicy8.setHeightForWidth(self.balanceLabel_2.sizePolicy().hasHeightForWidth())
-        self.balanceLabel_2.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.balanceLabel_2.sizePolicy().hasHeightForWidth())
+        self.balanceLabel_2.setSizePolicy(sizePolicy6)
         self.balanceLabel_2.setMinimumSize(QSize(200, 40))
-        self.balanceLabel_2.setFont(font9)
+        self.balanceLabel_2.setFont(font8)
         self.balanceLabel_2.setStyleSheet(u"border-radius:10px;\n"
 "background-color: rgb(255, 0, 127);")
         self.balanceLabel_2.setInputMethodHints(Qt.ImhHiddenText)
@@ -3013,12 +3009,12 @@ class Ui_MainWindow(object):
 
         self.checkBalanceBtn_2 = QPushButton(self.frame_46)
         self.checkBalanceBtn_2.setObjectName(u"checkBalanceBtn_2")
-        sizePolicy8.setHeightForWidth(self.checkBalanceBtn_2.sizePolicy().hasHeightForWidth())
-        self.checkBalanceBtn_2.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.checkBalanceBtn_2.sizePolicy().hasHeightForWidth())
+        self.checkBalanceBtn_2.setSizePolicy(sizePolicy6)
         self.checkBalanceBtn_2.setMinimumSize(QSize(0, 40))
-        icon45 = QIcon()
-        icon45.addFile(u":/icons/icons/eye.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.checkBalanceBtn_2.setIcon(icon45)
+        icon46 = QIcon()
+        icon46.addFile(u":/icons/icons/eye.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.checkBalanceBtn_2.setIcon(icon46)
         self.checkBalanceBtn_2.setIconSize(QSize(24, 24))
         self.checkBalanceBtn_2.setCheckable(False)
         self.checkBalanceBtn_2.setChecked(False)
@@ -3047,8 +3043,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_14.setContentsMargins(0, 0, 0, 0)
         self.frame_31 = QFrame(self.frame_35)
         self.frame_31.setObjectName(u"frame_31")
-        sizePolicy8.setHeightForWidth(self.frame_31.sizePolicy().hasHeightForWidth())
-        self.frame_31.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.frame_31.sizePolicy().hasHeightForWidth())
+        self.frame_31.setSizePolicy(sizePolicy6)
         self.frame_31.setMinimumSize(QSize(0, 0))
         self.frame_31.setFrameShape(QFrame.StyledPanel)
         self.frame_31.setFrameShadow(QFrame.Raised)
@@ -3065,7 +3061,11 @@ class Ui_MainWindow(object):
         self.verticalLayout_50.setObjectName(u"verticalLayout_50")
         self.label_18 = QLabel(self.frame_34)
         self.label_18.setObjectName(u"label_18")
-        self.label_18.setFont(font4)
+        font15 = QFont()
+        font15.setPointSize(12)
+        font15.setBold(True)
+        font15.setWeight(75)
+        self.label_18.setFont(font15)
 #if QT_CONFIG(tooltip)
         self.label_18.setToolTip(u"")
 #endif // QT_CONFIG(tooltip)
@@ -3074,7 +3074,7 @@ class Ui_MainWindow(object):
 
         self.label_12 = QLabel(self.frame_34)
         self.label_12.setObjectName(u"label_12")
-        self.label_12.setFont(font4)
+        self.label_12.setFont(font15)
         self.label_12.setToolTipDuration(-1)
 
         self.verticalLayout_50.addWidget(self.label_12)
@@ -3109,7 +3109,7 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.addressLineEdit.sizePolicy().hasHeightForWidth())
         self.addressLineEdit.setSizePolicy(sizePolicy5)
         self.addressLineEdit.setMinimumSize(QSize(300, 40))
-        self.addressLineEdit.setFont(font9)
+        self.addressLineEdit.setFont(font8)
         self.addressLineEdit.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_5.addWidget(self.addressLineEdit, 0, 1, 1, 1)
@@ -3117,9 +3117,9 @@ class Ui_MainWindow(object):
         self.CertBtn_2 = QPushButton(self.addressLine)
         self.CertBtn_2.setObjectName(u"CertBtn_2")
         self.CertBtn_2.setStyleSheet(u"background-color:#1f232a;")
-        icon46 = QIcon()
-        icon46.addFile(u":/icons/icons/clipboard.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.CertBtn_2.setIcon(icon46)
+        icon47 = QIcon()
+        icon47.addFile(u":/icons/icons/clipboard.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.CertBtn_2.setIcon(icon47)
         self.CertBtn_2.setIconSize(QSize(24, 24))
 
         self.gridLayout_5.addWidget(self.CertBtn_2, 0, 0, 1, 1, Qt.AlignHCenter)
@@ -3132,15 +3132,15 @@ class Ui_MainWindow(object):
 
         self.frame_36 = QFrame(self.inputFrame)
         self.frame_36.setObjectName(u"frame_36")
-        sizePolicy7.setHeightForWidth(self.frame_36.sizePolicy().hasHeightForWidth())
-        self.frame_36.setSizePolicy(sizePolicy7)
+        sizePolicy8.setHeightForWidth(self.frame_36.sizePolicy().hasHeightForWidth())
+        self.frame_36.setSizePolicy(sizePolicy8)
         self.frame_36.setFrameShape(QFrame.StyledPanel)
         self.frame_36.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_29 = QHBoxLayout(self.frame_36)
         self.horizontalLayout_29.setObjectName(u"horizontalLayout_29")
         self.label_11 = QLabel(self.frame_36)
         self.label_11.setObjectName(u"label_11")
-        self.label_11.setFont(font4)
+        self.label_11.setFont(font15)
 
         self.horizontalLayout_29.addWidget(self.label_11, 0, Qt.AlignLeft|Qt.AlignBottom)
 
@@ -3167,14 +3167,14 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.amountLineEdit.sizePolicy().hasHeightForWidth())
         self.amountLineEdit.setSizePolicy(sizePolicy5)
         self.amountLineEdit.setMinimumSize(QSize(300, 40))
-        self.amountLineEdit.setFont(font9)
+        self.amountLineEdit.setFont(font8)
         self.amountLineEdit.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_6.addWidget(self.amountLineEdit, 0, 1, 1, 1)
 
         self.pushButton_2 = QPushButton(self.amountLine)
         self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setIcon(icon44)
+        self.pushButton_2.setIcon(icon45)
         self.pushButton_2.setIconSize(QSize(24, 24))
 
         self.gridLayout_6.addWidget(self.pushButton_2, 0, 0, 1, 1)
@@ -3196,8 +3196,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_54.setObjectName(u"verticalLayout_54")
         self.receiveBtn = QPushButton(self.btnFrame)
         self.receiveBtn.setObjectName(u"receiveBtn")
-        sizePolicy8.setHeightForWidth(self.receiveBtn.sizePolicy().hasHeightForWidth())
-        self.receiveBtn.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.receiveBtn.sizePolicy().hasHeightForWidth())
+        self.receiveBtn.setSizePolicy(sizePolicy6)
         self.receiveBtn.setMinimumSize(QSize(200, 50))
         font16 = QFont()
         font16.setFamily(u"Segoe Print")
@@ -3217,8 +3217,8 @@ class Ui_MainWindow(object):
 
         self.frame_40 = QFrame(self.frame_35)
         self.frame_40.setObjectName(u"frame_40")
-        sizePolicy8.setHeightForWidth(self.frame_40.sizePolicy().hasHeightForWidth())
-        self.frame_40.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.frame_40.sizePolicy().hasHeightForWidth())
+        self.frame_40.setSizePolicy(sizePolicy6)
         self.frame_40.setMinimumSize(QSize(200, 200))
         self.frame_40.setFrameShape(QFrame.StyledPanel)
         self.frame_40.setFrameShadow(QFrame.Raised)
@@ -3235,7 +3235,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_55.setObjectName(u"verticalLayout_55")
         self.label_19 = QLabel(self.frame_41)
         self.label_19.setObjectName(u"label_19")
-        self.label_19.setFont(font4)
+        self.label_19.setFont(font15)
 #if QT_CONFIG(tooltip)
         self.label_19.setToolTip(u"")
 #endif // QT_CONFIG(tooltip)
@@ -3244,7 +3244,7 @@ class Ui_MainWindow(object):
 
         self.label_20 = QLabel(self.frame_41)
         self.label_20.setObjectName(u"label_20")
-        self.label_20.setFont(font4)
+        self.label_20.setFont(font15)
 #if QT_CONFIG(tooltip)
         self.label_20.setToolTip(u"")
 #endif // QT_CONFIG(tooltip)
@@ -3281,7 +3281,7 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.addressLineEditT.sizePolicy().hasHeightForWidth())
         self.addressLineEditT.setSizePolicy(sizePolicy5)
         self.addressLineEditT.setMinimumSize(QSize(300, 40))
-        self.addressLineEditT.setFont(font9)
+        self.addressLineEditT.setFont(font8)
         self.addressLineEditT.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_7.addWidget(self.addressLineEditT, 0, 1, 1, 1)
@@ -3289,7 +3289,7 @@ class Ui_MainWindow(object):
         self.CertBtn_4 = QPushButton(self.addressLine_2)
         self.CertBtn_4.setObjectName(u"CertBtn_4")
         self.CertBtn_4.setStyleSheet(u"")
-        self.CertBtn_4.setIcon(icon46)
+        self.CertBtn_4.setIcon(icon47)
         self.CertBtn_4.setIconSize(QSize(24, 24))
 
         self.gridLayout_7.addWidget(self.CertBtn_4, 0, 0, 1, 1, Qt.AlignHCenter)
@@ -3302,15 +3302,15 @@ class Ui_MainWindow(object):
 
         self.frame_42 = QFrame(self.inputFrame_2)
         self.frame_42.setObjectName(u"frame_42")
-        sizePolicy7.setHeightForWidth(self.frame_42.sizePolicy().hasHeightForWidth())
-        self.frame_42.setSizePolicy(sizePolicy7)
+        sizePolicy8.setHeightForWidth(self.frame_42.sizePolicy().hasHeightForWidth())
+        self.frame_42.setSizePolicy(sizePolicy8)
         self.frame_42.setFrameShape(QFrame.StyledPanel)
         self.frame_42.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_30 = QHBoxLayout(self.frame_42)
         self.horizontalLayout_30.setObjectName(u"horizontalLayout_30")
         self.label_21 = QLabel(self.frame_42)
         self.label_21.setObjectName(u"label_21")
-        self.label_21.setFont(font4)
+        self.label_21.setFont(font15)
 
         self.horizontalLayout_30.addWidget(self.label_21, 0, Qt.AlignLeft|Qt.AlignBottom)
 
@@ -3337,14 +3337,14 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.amountLineEditT.sizePolicy().hasHeightForWidth())
         self.amountLineEditT.setSizePolicy(sizePolicy5)
         self.amountLineEditT.setMinimumSize(QSize(300, 40))
-        self.amountLineEditT.setFont(font9)
+        self.amountLineEditT.setFont(font8)
         self.amountLineEditT.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_8.addWidget(self.amountLineEditT, 0, 1, 1, 1)
 
         self.pushButton_33 = QPushButton(self.amountLine_2)
         self.pushButton_33.setObjectName(u"pushButton_33")
-        self.pushButton_33.setIcon(icon44)
+        self.pushButton_33.setIcon(icon45)
         self.pushButton_33.setIconSize(QSize(24, 24))
 
         self.gridLayout_8.addWidget(self.pushButton_33, 0, 0, 1, 1)
@@ -3366,8 +3366,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_56.setObjectName(u"verticalLayout_56")
         self.sendAssetsBtn = QPushButton(self.btnFrame_2)
         self.sendAssetsBtn.setObjectName(u"sendAssetsBtn")
-        sizePolicy8.setHeightForWidth(self.sendAssetsBtn.sizePolicy().hasHeightForWidth())
-        self.sendAssetsBtn.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.sendAssetsBtn.sizePolicy().hasHeightForWidth())
+        self.sendAssetsBtn.setSizePolicy(sizePolicy6)
         self.sendAssetsBtn.setMinimumSize(QSize(200, 50))
         self.sendAssetsBtn.setFont(font16)
         self.sendAssetsBtn.setStyleSheet(u"")
@@ -3406,7 +3406,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_9.setObjectName(u"horizontalLayout_9")
         self.label_7 = QLabel(self.frame_8)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setFont(font9)
+        self.label_7.setFont(font8)
         self.label_7.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_9.addWidget(self.label_7)
@@ -3458,7 +3458,7 @@ class Ui_MainWindow(object):
 
         self.label_2 = QLabel(self.layoutWidget)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setFont(font9)
+        self.label_2.setFont(font8)
 
         self.gridLayout_9.addWidget(self.label_2, 0, 0, 1, 1)
 
@@ -3480,7 +3480,7 @@ class Ui_MainWindow(object):
 
         self.label_3 = QLabel(self.layoutWidget_2)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setFont(font9)
+        self.label_3.setFont(font8)
 
         self.gridLayout_10.addWidget(self.label_3, 0, 0, 1, 1)
 
@@ -3495,7 +3495,7 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.addressLineEditT_4.sizePolicy().hasHeightForWidth())
         self.addressLineEditT_4.setSizePolicy(sizePolicy5)
         self.addressLineEditT_4.setMinimumSize(QSize(300, 40))
-        self.addressLineEditT_4.setFont(font9)
+        self.addressLineEditT_4.setFont(font8)
         self.addressLineEditT_4.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_11.addWidget(self.addressLineEditT_4, 0, 1, 1, 1)
@@ -3503,9 +3503,9 @@ class Ui_MainWindow(object):
         self.CertBtn_5 = QPushButton(self.layoutWidget_3)
         self.CertBtn_5.setObjectName(u"CertBtn_5")
         self.CertBtn_5.setStyleSheet(u"")
-        icon47 = QIcon()
-        icon47.addFile(u":/icons/icons/phone.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.CertBtn_5.setIcon(icon47)
+        icon48 = QIcon()
+        icon48.addFile(u":/icons/icons/phone.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.CertBtn_5.setIcon(icon48)
         self.CertBtn_5.setIconSize(QSize(24, 24))
 
         self.gridLayout_11.addWidget(self.CertBtn_5, 0, 0, 1, 1, Qt.AlignHCenter)
@@ -3521,7 +3521,7 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.addressLineEditT_5.sizePolicy().hasHeightForWidth())
         self.addressLineEditT_5.setSizePolicy(sizePolicy5)
         self.addressLineEditT_5.setMinimumSize(QSize(300, 40))
-        self.addressLineEditT_5.setFont(font9)
+        self.addressLineEditT_5.setFont(font8)
         self.addressLineEditT_5.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_12.addWidget(self.addressLineEditT_5, 0, 1, 1, 1)
@@ -3529,9 +3529,9 @@ class Ui_MainWindow(object):
         self.CertBtn_6 = QPushButton(self.layoutWidget_4)
         self.CertBtn_6.setObjectName(u"CertBtn_6")
         self.CertBtn_6.setStyleSheet(u"")
-        icon48 = QIcon()
-        icon48.addFile(u":/icons/icons/globe.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.CertBtn_6.setIcon(icon48)
+        icon49 = QIcon()
+        icon49.addFile(u":/icons/icons/globe.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.CertBtn_6.setIcon(icon49)
         self.CertBtn_6.setIconSize(QSize(24, 24))
 
         self.gridLayout_12.addWidget(self.CertBtn_6, 0, 0, 1, 1, Qt.AlignHCenter)
@@ -3547,7 +3547,7 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.addressLineEditT_6.sizePolicy().hasHeightForWidth())
         self.addressLineEditT_6.setSizePolicy(sizePolicy5)
         self.addressLineEditT_6.setMinimumSize(QSize(300, 40))
-        self.addressLineEditT_6.setFont(font9)
+        self.addressLineEditT_6.setFont(font8)
         self.addressLineEditT_6.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_13.addWidget(self.addressLineEditT_6, 0, 1, 1, 1)
@@ -3555,9 +3555,9 @@ class Ui_MainWindow(object):
         self.CertBtn_7 = QPushButton(self.layoutWidget_5)
         self.CertBtn_7.setObjectName(u"CertBtn_7")
         self.CertBtn_7.setStyleSheet(u"")
-        icon49 = QIcon()
-        icon49.addFile(u":/icons/icons/user-check.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.CertBtn_7.setIcon(icon49)
+        icon50 = QIcon()
+        icon50.addFile(u":/icons/icons/user-check.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.CertBtn_7.setIcon(icon50)
         self.CertBtn_7.setIconSize(QSize(24, 24))
 
         self.gridLayout_13.addWidget(self.CertBtn_7, 0, 0, 1, 1, Qt.AlignHCenter)
@@ -3573,7 +3573,7 @@ class Ui_MainWindow(object):
         sizePolicy5.setHeightForWidth(self.addressLineEditT_7.sizePolicy().hasHeightForWidth())
         self.addressLineEditT_7.setSizePolicy(sizePolicy5)
         self.addressLineEditT_7.setMinimumSize(QSize(300, 40))
-        self.addressLineEditT_7.setFont(font9)
+        self.addressLineEditT_7.setFont(font8)
         self.addressLineEditT_7.setStyleSheet(u"background-color: rgb(255, 0, 127);")
 
         self.gridLayout_14.addWidget(self.addressLineEditT_7, 0, 1, 1, 1)
@@ -3581,9 +3581,9 @@ class Ui_MainWindow(object):
         self.CertBtn_8 = QPushButton(self.layoutWidget_6)
         self.CertBtn_8.setObjectName(u"CertBtn_8")
         self.CertBtn_8.setStyleSheet(u"")
-        icon50 = QIcon()
-        icon50.addFile(u":/icons/icons/mail.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.CertBtn_8.setIcon(icon50)
+        icon51 = QIcon()
+        icon51.addFile(u":/icons/icons/mail.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.CertBtn_8.setIcon(icon51)
         self.CertBtn_8.setIconSize(QSize(24, 24))
 
         self.gridLayout_14.addWidget(self.CertBtn_8, 0, 0, 1, 1, Qt.AlignHCenter)
@@ -3597,8 +3597,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_74.setObjectName(u"verticalLayout_74")
         self.registerBtn = QPushButton(self.btnFrame_3)
         self.registerBtn.setObjectName(u"registerBtn")
-        sizePolicy8.setHeightForWidth(self.registerBtn.sizePolicy().hasHeightForWidth())
-        self.registerBtn.setSizePolicy(sizePolicy8)
+        sizePolicy6.setHeightForWidth(self.registerBtn.sizePolicy().hasHeightForWidth())
+        self.registerBtn.setSizePolicy(sizePolicy6)
         self.registerBtn.setMinimumSize(QSize(200, 50))
         self.registerBtn.setFont(font16)
         self.registerBtn.setStyleSheet(u"background-color:#351c75;\n"
@@ -3616,8 +3616,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_14.setObjectName(u"verticalLayout_14")
         self.label_9 = QLabel(self.page_5)
         self.label_9.setObjectName(u"label_9")
-        sizePolicy7.setHeightForWidth(self.label_9.sizePolicy().hasHeightForWidth())
-        self.label_9.setSizePolicy(sizePolicy7)
+        sizePolicy8.setHeightForWidth(self.label_9.sizePolicy().hasHeightForWidth())
+        self.label_9.setSizePolicy(sizePolicy8)
         self.label_9.setFont(font2)
         self.label_9.setAlignment(Qt.AlignCenter)
 
@@ -3667,9 +3667,9 @@ class Ui_MainWindow(object):
         self.closequickLinkBtn.setObjectName(u"closequickLinkBtn")
         sizePolicy3.setHeightForWidth(self.closequickLinkBtn.sizePolicy().hasHeightForWidth())
         self.closequickLinkBtn.setSizePolicy(sizePolicy3)
-        icon51 = QIcon()
-        icon51.addFile(u":/icons/icons/x-octagon.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.closequickLinkBtn.setIcon(icon51)
+        icon52 = QIcon()
+        icon52.addFile(u":/icons/icons/x-octagon.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.closequickLinkBtn.setIcon(icon52)
         self.closequickLinkBtn.setIconSize(QSize(24, 24))
 
         self.verticalLayout_79.addWidget(self.closequickLinkBtn, 0, Qt.AlignRight)
@@ -3685,27 +3685,27 @@ class Ui_MainWindow(object):
         self.mailBtn = QPushButton(self.frame_73)
         self.mailBtn.setObjectName(u"mailBtn")
         self.mailBtn.setMinimumSize(QSize(0, 30))
-        self.mailBtn.setFont(font9)
+        self.mailBtn.setFont(font8)
         self.mailBtn.setStyleSheet(u"")
-        self.mailBtn.setIcon(icon50)
+        self.mailBtn.setIcon(icon51)
 
         self.gridLayout_3.addWidget(self.mailBtn, 1, 1, 1, 1)
 
         self.twitterBtn = QPushButton(self.frame_73)
         self.twitterBtn.setObjectName(u"twitterBtn")
         self.twitterBtn.setMinimumSize(QSize(0, 30))
-        self.twitterBtn.setFont(font9)
+        self.twitterBtn.setFont(font8)
         self.twitterBtn.setStyleSheet(u"")
-        icon52 = QIcon()
-        icon52.addFile(u":/icons/icons/twitter.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.twitterBtn.setIcon(icon52)
+        icon53 = QIcon()
+        icon53.addFile(u":/icons/icons/twitter.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.twitterBtn.setIcon(icon53)
 
         self.gridLayout_3.addWidget(self.twitterBtn, 2, 0, 1, 1)
 
         self.polkAPIBtn = QPushButton(self.frame_73)
         self.polkAPIBtn.setObjectName(u"polkAPIBtn")
         self.polkAPIBtn.setMinimumSize(QSize(0, 30))
-        self.polkAPIBtn.setFont(font9)
+        self.polkAPIBtn.setFont(font8)
         self.polkAPIBtn.setStyleSheet(u"")
         self.polkAPIBtn.setIcon(icon19)
 
@@ -3714,29 +3714,29 @@ class Ui_MainWindow(object):
         self.gitlabBtn = QPushButton(self.frame_73)
         self.gitlabBtn.setObjectName(u"gitlabBtn")
         self.gitlabBtn.setMinimumSize(QSize(0, 30))
-        self.gitlabBtn.setFont(font9)
+        self.gitlabBtn.setFont(font8)
         self.gitlabBtn.setStyleSheet(u"")
-        icon53 = QIcon()
-        icon53.addFile(u":/icons/icons/gitlab.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.gitlabBtn.setIcon(icon53)
+        icon54 = QIcon()
+        icon54.addFile(u":/icons/icons/gitlab.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.gitlabBtn.setIcon(icon54)
 
         self.gridLayout_3.addWidget(self.gitlabBtn, 1, 0, 1, 1)
 
         self.youtubetBtn = QPushButton(self.frame_73)
         self.youtubetBtn.setObjectName(u"youtubetBtn")
         self.youtubetBtn.setMinimumSize(QSize(0, 30))
-        self.youtubetBtn.setFont(font9)
+        self.youtubetBtn.setFont(font8)
         self.youtubetBtn.setStyleSheet(u"")
-        icon54 = QIcon()
-        icon54.addFile(u":/icons/icons/youtube.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.youtubetBtn.setIcon(icon54)
+        icon55 = QIcon()
+        icon55.addFile(u":/icons/icons/youtube.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.youtubetBtn.setIcon(icon55)
 
         self.gridLayout_3.addWidget(self.youtubetBtn, 2, 1, 1, 1)
 
         self.githubBtn = QPushButton(self.frame_73)
         self.githubBtn.setObjectName(u"githubBtn")
         self.githubBtn.setMinimumSize(QSize(0, 30))
-        self.githubBtn.setFont(font9)
+        self.githubBtn.setFont(font8)
         self.githubBtn.setStyleSheet(u"")
         self.githubBtn.setIcon(icon5)
 
@@ -3791,7 +3791,7 @@ class Ui_MainWindow(object):
         self.closeNotificationBtn.setObjectName(u"closeNotificationBtn")
         sizePolicy3.setHeightForWidth(self.closeNotificationBtn.sizePolicy().hasHeightForWidth())
         self.closeNotificationBtn.setSizePolicy(sizePolicy3)
-        self.closeNotificationBtn.setIcon(icon51)
+        self.closeNotificationBtn.setIcon(icon52)
         self.closeNotificationBtn.setIconSize(QSize(24, 24))
 
         self.horizontalLayout_10.addWidget(self.closeNotificationBtn, 0, Qt.AlignRight)
@@ -3862,7 +3862,7 @@ class Ui_MainWindow(object):
 
         self.centerMenuPages.setCurrentIndex(0)
         self.mainPages.setCurrentIndex(0)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
         self.rightMenuPages.setCurrentIndex(0)
 
 
@@ -4003,7 +4003,7 @@ class Ui_MainWindow(object):
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Segoe UI'; font-size:12pt; font-weight:600; color:#ff79c6;\">NFTs Collection/Marketplace</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", None))
-        self.label_5.setText("")
+        self.pushButton_41.setText("")
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Parachronos", None))
 #if QT_CONFIG(tooltip)
         self.notificationBtn.setToolTip(QCoreApplication.translate("MainWindow", u"view notification", None))
