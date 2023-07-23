@@ -9,14 +9,21 @@ from PySide2.QtWidgets import QSizePolicy
 from random import randrange
 from functools import partial
 
-
 import csv
 
 import psutil
 # IMPORT GUI FILE
+
+# ==> SPLASH SCREEN
+from ui_splash_screen import *
+# ==> MAIN UI
 from ui_interface_PK import *
 
+# CUSTOM WIDGETS
 from Custom_Widgets.Widgets import *
+
+# ==> GLOBAL VARIABLES
+counter = 0
 
 shadow_elements = {
     "progressBar",
@@ -36,6 +43,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        # REMOVE TITLE BAR
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.setAttribute(Qt.WA_TranslucentBackground)
 
@@ -43,10 +51,12 @@ class MainWindow(QMainWindow):
 
         self.create_trading_charts()
 
+        # WEB VIEW
         self.webEngineView = QWebEngineView()  # SHOWING WEB VIEW
         self.ui.verticalLayout_53.addWidget(self.webEngineView)  # Add to a layout
         self.webEngineView.load(QUrl("https://polkadot.network/"))
 
+        # SHADOW EFFECT
         for x in shadow_elements:
             effect = QtWidgets.QGraphicsDropShadowEffect(self)
             effect.setBlurRadius(18)
@@ -77,7 +87,7 @@ class MainWindow(QMainWindow):
         ########################################################################
         loadJsonStyle(self, self.ui)  # APPLY JSON STYLESHEET
         #######################################################################
-        self.show()  # SHOW WINDOW
+
 
         # EXPAND CENTER MENU WIDGET SIZE
 
@@ -332,12 +342,71 @@ class MainWindow(QMainWindow):
             self.timer.stop()
             self.current_mining_cycle = 0
 
+
+class SplashScreen(QMainWindow):
+    def __init__(self, parent=None):
+        QMainWindow.__init__(self)
+        self.ui = Ui_SplashScreen()
+        self.ui.setupUi(self)
+
+        # REMOVE TITLE BAR
+        self.setWindowFlags(Qt.FramelessWindowHint)
+        self.setAttribute(Qt.WA_TranslucentBackground)
+
+        # SHADOW EFFECT
+        self.shadow = QGraphicsDropShadowEffect(self)
+        self.shadow.setBlurRadius(20)
+        self.shadow.setXOffset(0)
+        self.shadow.setYOffset(0)
+        self.shadow.setColor(QColor(0, 0, 0, 255))
+        self.ui.dropShadowFrame.setGraphicsEffect(self.shadow)
+
+        # QTIMER ==> START
+        self.timer = QtCore.QTimer()
+        self.timer.timeout.connect(self.splash_screen_progress)
+        self.timer.start(35)
+
+        # CHANGE SPLASH DESCRIPTION
+        # INITIAL TEXT
+        self.ui.description.setText("<strong>WELCOME</strong> TO PARACHRONOS")
+
+        # CHANGE TEXT
+        QtCore.QTimer.singleShot(1500, lambda: self.ui.description.setText("<strong>LOADING</strong> DATABASE"))
+        QtCore.QTimer.singleShot(3000, lambda: self.ui.description.setText("<strong>INITIALIZING</strong> APPLICATION"))
+
+        # SHOW WINDOW
+        self.show()
+
+    # SPLASH SCREEN FUNCTION
+    def splash_screen_progress(self):
+        global counter
+
+        # SETTING VALUE TO PROGRESSBAR
+        self.ui.progressBar.setValue(counter)
+
+        # CLOSING SPLASH SCREEN AND OPENING MAIN UI
+        if counter > 100:
+            # STOP TIMER
+            self.timer.stop()
+
+            # SHOW MAIN UI
+            self.main = MainWindow()
+            self.main.show()
+
+            # CLOSE SPLASH SCREEN
+            self.close()
+
+        # INCREASE PROGRESS BAR COUNTER
+        counter += 1
+
+
+
 # EXECUTE APP
 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     ########################################################################
-    window = MainWindow()
+    window = SplashScreen()
     window.show()
     sys.exit(app.exec_())
