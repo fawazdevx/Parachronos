@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface_PKKgFjXX.ui'
+## Form generated from reading UI file 'interface_PKLHRcAQ.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.setWindowModality(Qt.ApplicationModal)
-        MainWindow.resize(956, 703)
+        MainWindow.resize(940, 600)
         sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -1004,6 +1004,7 @@ class Ui_MainWindow(object):
         self.frame_37.setFrameShadow(QFrame.Raised)
         self.verticalLayout_48 = QVBoxLayout(self.frame_37)
         self.verticalLayout_48.setObjectName(u"verticalLayout_48")
+        self.verticalLayout_48.setContentsMargins(0, -1, -1, -1)
         self.frame_38 = QFrame(self.frame_37)
         self.frame_38.setObjectName(u"frame_38")
         sizePolicy9 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
@@ -1015,6 +1016,7 @@ class Ui_MainWindow(object):
         self.frame_38.setFrameShadow(QFrame.Raised)
         self.verticalLayout_49 = QVBoxLayout(self.frame_38)
         self.verticalLayout_49.setObjectName(u"verticalLayout_49")
+        self.verticalLayout_49.setContentsMargins(0, -1, -1, -1)
         self.label_17 = QLabel(self.frame_38)
         self.label_17.setObjectName(u"label_17")
         font7 = QFont()
@@ -1044,7 +1046,7 @@ class Ui_MainWindow(object):
         self.balanceLabel.setObjectName(u"balanceLabel")
         sizePolicy8.setHeightForWidth(self.balanceLabel.sizePolicy().hasHeightForWidth())
         self.balanceLabel.setSizePolicy(sizePolicy8)
-        self.balanceLabel.setMinimumSize(QSize(200, 40))
+        self.balanceLabel.setMinimumSize(QSize(150, 40))
         font8 = QFont()
         font8.setBold(True)
         font8.setWeight(75)
@@ -1052,9 +1054,9 @@ class Ui_MainWindow(object):
         self.balanceLabel.setStyleSheet(u"background-color: rgb(255, 0, 127);\n"
 "border-radius:10px;")
         self.balanceLabel.setInputMethodHints(Qt.ImhHiddenText)
-        self.balanceLabel.setAlignment(Qt.AlignCenter)
+        self.balanceLabel.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
 
-        self.horizontalLayout_19.addWidget(self.balanceLabel)
+        self.horizontalLayout_19.addWidget(self.balanceLabel, 0, Qt.AlignLeft)
 
         self.checkBalanceBtn = QPushButton(self.frame_39)
         self.checkBalanceBtn.setObjectName(u"checkBalanceBtn")
@@ -1065,7 +1067,7 @@ class Ui_MainWindow(object):
         self.checkBalanceBtn.setCheckable(False)
         self.checkBalanceBtn.setChecked(False)
 
-        self.horizontalLayout_19.addWidget(self.checkBalanceBtn)
+        self.horizontalLayout_19.addWidget(self.checkBalanceBtn, 0, Qt.AlignLeft)
 
 
         self.verticalLayout_48.addWidget(self.frame_39)
@@ -1375,7 +1377,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 462, 366))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 446, 366))
         self.verticalLayout_32 = QVBoxLayout(self.scrollAreaWidgetContents_3)
         self.verticalLayout_32.setObjectName(u"verticalLayout_32")
         self.widget_4 = QWidget(self.scrollAreaWidgetContents_3)
@@ -3863,7 +3865,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
 
         self.centerMenuPages.setCurrentIndex(0)
-        self.mainPages.setCurrentIndex(0)
+        self.mainPages.setCurrentIndex(1)
         self.stackedWidget.setCurrentIndex(1)
         self.rightMenuPages.setCurrentIndex(0)
 

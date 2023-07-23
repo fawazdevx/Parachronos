@@ -138,6 +138,7 @@ class MainWindow(QMainWindow):
         self.update_balance()
 
         self.ui.checkBalanceBtn.clicked.connect(self.toggle_balance)
+        self.ui.checkBalanceBtn_2.clicked.connect(self.toggle_balance)
         self.ui.sendAssetsBtn.clicked.connect(self.send_tokens)
         self.ui.receiveBtn.clicked.connect(self.receive_tokens)
 
@@ -147,19 +148,23 @@ class MainWindow(QMainWindow):
 
     def update_balance(self):
         self.ui.balanceLabel.setVisible(self.is_balance_visible)
+        self.ui.balanceLabel_2.setVisible(self.is_balance_visible)
 
         # Changing the icon based on the visibility state
         icon_path = "icons/eye-off.svg" if self.is_balance_visible else "icons/eye.svg"
         self.ui.checkBalanceBtn.setIcon(QIcon(icon_path))
+        self.ui.checkBalanceBtn_2.setIcon(QIcon(icon_path))
 
         # Updating the text of the label based on the visibility state
         balance_text = "100.00 DOT" if self.is_not_balance_visible else ""
         self.ui.balanceLabel.setText(balance_text)
+        self.ui.balanceLabel_2.setText(balance_text)
 
     def check_balance(self):
         # Replace this method with your actual implementation to check the account balance
         account_balance = "34353450.79 DOT"  # Sample balance for demonstration purposes
         self.ui.balanceLabel.setText(account_balance)
+        self.ui.balanceLabel_2.setText(account_balance)
 
     def send_tokens(self):
         # send token function
