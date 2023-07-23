@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface_PKaSQABs.ui'
+## Form generated from reading UI file 'interface_PKWDoOWF.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -1377,7 +1377,7 @@ class Ui_MainWindow(object):
         self.scrollArea_3.setWidgetResizable(True)
         self.scrollAreaWidgetContents_3 = QWidget()
         self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
-        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 446, 366))
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 342, 355))
         self.verticalLayout_32 = QVBoxLayout(self.scrollAreaWidgetContents_3)
         self.verticalLayout_32.setObjectName(u"verticalLayout_32")
         self.widget_4 = QWidget(self.scrollAreaWidgetContents_3)
@@ -3867,7 +3867,7 @@ class Ui_MainWindow(object):
         self.centerMenuPages.setCurrentIndex(0)
         self.mainPages.setCurrentIndex(0)
         self.stackedWidget.setCurrentIndex(1)
-        self.rightMenuPages.setCurrentIndex(0)
+        self.rightMenuPages.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
