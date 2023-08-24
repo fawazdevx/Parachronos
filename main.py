@@ -8,9 +8,8 @@ from PySide2.QtCharts import QtCharts
 from PySide2.QtWidgets import QSizePolicy
 from random import randrange
 from functools import partial
-
+from custom_buttons import QPushButton
 import csv
-
 import psutil
 # IMPORT GUI FILE
 
@@ -42,6 +41,10 @@ class MainWindow(QMainWindow):
         QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+
+        # set app icon
+        icon_path = "images/parachronos.ico"
+        self.ui.app_icon.setIcon(QIcon(icon_path))
 
         # REMOVE TITLE BAR
         self.setWindowFlags(Qt.FramelessWindowHint)
@@ -82,12 +85,9 @@ class MainWindow(QMainWindow):
         self.ui.progressBar.rpb_setLineCap("RoundCap")
         self.ui.progressBar.rpb_setLineStyle("DotLine")
 
-        #self.ui.loadPage.setStyleSheet("#351c7")
-
         ########################################################################
         loadJsonStyle(self, self.ui)  # APPLY JSON STYLESHEET
         #######################################################################
-
 
         # EXPAND CENTER MENU WIDGET SIZE
 
@@ -111,6 +111,33 @@ class MainWindow(QMainWindow):
         # CLOSE QUICK LINKS CONTAINER
         self.ui.closequickLinkBtn.clicked.connect(lambda: self.ui.quickLinksContainer.collapseMenu())
 
+        # ==> LEFT MENU THEMING
+        self.ui.menuBtn.setObjectTheme(10)
+        self.ui.homeBtn.setObjectTheme(10)
+        self.ui.networksBtn.setObjectTheme(10)
+        self.ui.tradeBtn.setObjectTheme(10)
+        self.ui.miningBtn.setObjectTheme(10)
+        self.ui.nftMarketBtn.setObjectTheme(10)
+        self.ui.walletBtn.setObjectTheme(10)
+        self.ui.mintingBtn.setObjectTheme(10)
+        self.ui.walletBtn.setObjectTheme(10)
+        self.ui.settingsBtn.setObjectTheme(10)
+        self.ui.infoBtn.setObjectTheme(10)
+        self.ui.helpBtn.setObjectTheme(10)
+        self.ui.closeRightMenuBtn.setObjectTheme(10)
+        self.ui.closeCenterMenuBtn.setObjectTheme(10)
+
+        # ==> CENTER TOP MENU THEMING
+        self.ui.notificationBtn.setObjectTheme(10)
+        self.ui.closeNotificationBtn.setObjectTheme(10)
+        self.ui.profileMenuBtn.setObjectTheme(10)
+        self.ui.moreMenuBtn.setObjectTheme(10)
+
+        self.ui.minimize_window_btn.setObjectTheme(10)
+        self.ui.restore_window_btn.setObjectTheme(10)
+        self.ui.close_window_btn.setObjectTheme(10)
+
+
     ################################################################################
         # PARA_BROWSER
     ################################################################################
@@ -122,6 +149,15 @@ class MainWindow(QMainWindow):
         self.ui.polkBtn.clicked.connect(self.goto_home)
         self.ui.zoomInBtn.clicked.connect(self.decrease_zoom)
         self.ui.zoomOutBtn.clicked.connect(self.increase_zoom)
+
+        # ==> QUICK LINKS THEMING
+        self.ui.polkAPIBtn.setObjectTheme(10)
+        self.ui.githubBtn.setObjectTheme(10)
+        self.ui.gitlabBtn.setObjectTheme(10)
+        self.ui.youtubetBtn.setObjectTheme(10)
+        self.ui.mailBtn.setObjectTheme(10)
+        self.ui.twitterBtn.setObjectTheme(10)
+        self.ui.closequickLinkBtn.setObjectTheme(10)
 
         # Quick Links
         self.ui.polkAPIBtn.clicked.connect(self.goto_polkadot_API)
@@ -146,6 +182,11 @@ class MainWindow(QMainWindow):
         self.is_balance_visible = False
         self.is_not_balance_visible = True
         self.update_balance()
+
+        self.ui.sendAssetsBtn.setObjectTheme(10)
+        self.ui.receiveBtn.setObjectTheme(10)
+        self.ui.checkBalanceBtn.setObjectTheme(10)
+        self.ui.checkBalanceBtn_2.setObjectTheme(10)
 
         self.ui.checkBalanceBtn.clicked.connect(self.toggle_balance)
         self.ui.checkBalanceBtn_2.clicked.connect(self.toggle_balance)
@@ -284,6 +325,7 @@ class MainWindow(QMainWindow):
         self.ui.frame_12.setStyleSheet(u"background-color: transparent")
         ##################################################################################
         # taking data from cpu_processors
+
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.update_progress)
         self.num_cpu_processors = psutil.cpu_count(logical=True)
@@ -295,7 +337,7 @@ class MainWindow(QMainWindow):
         self.print_cpu_processors()
 
         self.ui.progressBar.rpb_setValue(0)
-        self.ui.start_stopBtn.clicked.connect(self.toggle_mining)  # Setting the default value of the progress bar to zero
+        self.ui.start_stopBtn.clicked.connect(self.toggle_mining)
 
     def print_cpu_processors(self):
         num_processors = psutil.cpu_count(logical=True)
@@ -400,10 +442,7 @@ class SplashScreen(QMainWindow):
         counter += 1
 
 
-
 # EXECUTE APP
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     ########################################################################
