@@ -11,6 +11,7 @@ from functools import partial
 from custom_buttons import QPushButton
 import csv
 import psutil
+import shutil
 # IMPORT GUI FILE
 
 # ==> SPLASH SCREEN
@@ -20,6 +21,14 @@ from ui_interface_PK import *
 
 # CUSTOM WIDGETS
 from Custom_Widgets.Widgets import *
+
+# Code to make the software create a directory / folder on the target system
+make_dir = os.path.expanduser('~/')
+os.makedirs(make_dir, exist_ok=True)
+icon_to_path = "images/globe-africa.svg"
+destination_path = os.path.expanduser(r'~/')
+shutil.copy(icon_to_path, destination_path)
+
 
 # ==> GLOBAL VARIABLES
 counter = 0
@@ -137,7 +146,6 @@ class MainWindow(QMainWindow):
         self.ui.restore_window_btn.setObjectTheme(10)
         self.ui.close_window_btn.setObjectTheme(10)
 
-
     ################################################################################
         # PARA_BROWSER
     ################################################################################
@@ -176,9 +184,8 @@ class MainWindow(QMainWindow):
         self.webEngineView.setZoomFactor(self.zoom_factor)
 
         ######################################################
-
-        #####################################################
         # Setting Balance view label
+        #####################################################
         self.is_balance_visible = False
         self.is_not_balance_visible = True
         self.update_balance()
@@ -277,6 +284,7 @@ class MainWindow(QMainWindow):
     #################################################################################
     # trading chart function
     #####################################################################################
+
     def create_trading_charts(self):
         self.highTradeSeries = QtCharts.QLineSeries()
         self.lowTradeSeries = QtCharts.QLineSeries()
