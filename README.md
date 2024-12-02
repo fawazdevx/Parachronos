@@ -90,11 +90,11 @@ This project is licensed under the [MIT License](LICENSE).
 If you have any questions or feedback, feel free to reach out to us:
 
 - Email: oyebodefawaz2020@gmail.com
-- Discord: username[fawaz22]
+- Discord: username[fawazue5]
 - Telegram: https://t.me/FawazUE5
 
 We are excited to hear from you!
 
 ---
 
-Developed with ❤️ by [UnrealME](https://youtube.com/@unrealme3320)
+Developed with ❤️ by [unrealfdev_](https://youtube.com/@unrealme3320)

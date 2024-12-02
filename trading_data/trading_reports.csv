@@ -1,4 +1,4 @@
-MinTemp,MaxTemp,Rainfall,Evaporation,Sunshine,WindGustDir,WindGustSpeed,WindDir9am,WindDir3pm,WindSpeed9am,WindSpeed3pm,Humidity9am,Humidity3pm,Pressure9am,Pressure3pm,Cloud9am,Cloud3pm,Temp9am,Temp3pm,RainToday,RISK_MM,RainTomorrow
+Bitcoin(BTC),USDT,DOGE,Polygon,Dot,BNB,TRON,Satoshi,USDC,Ethereum,EOS,BUSD,Omega,PII,CAT,AVIVE,XRP,MiniPepe,SWEAT,Telos,RISK_MM,RainTomorrow
 8,24.3,0,3.4,6.3,NW,30,SW,NW,6,20,68,29,1019.7,1015,7,7,14.4,23.6,No,3.6,Yes
 14,26.9,3.6,4.4,9.7,ENE,39,E,W,4,17,80,36,1012.4,1008.4,5,3,17.5,25.7,Yes,3.6,Yes
 13.7,23.4,3.6,5.8,3.3,NW,85,N,NNE,6,6,82,69,1009.5,1007.2,8,7,15.4,20.2,Yes,39.8,Yes

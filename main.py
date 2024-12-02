@@ -22,12 +22,12 @@ from ui_interface_PK import *
 # CUSTOM WIDGETS
 from Custom_Widgets.Widgets import *
 
-# Code to make the software create a directory / folder on the target system
-make_dir = os.path.expanduser('~/')
-os.makedirs(make_dir, exist_ok=True)
-icon_to_path = "images/globe-africa.svg"
-destination_path = os.path.expanduser(r'~/')
-shutil.copy(icon_to_path, destination_path)
+# # Code to make the software create a directory / folder on the target system
+# make_dir = os.path.expanduser('~/')
+# os.makedirs(make_dir, exist_ok=True)
+# icon_to_path = "images/globe-africa.svg"
+# destination_path = os.path.expanduser(r'~/')
+# shutil.copy(icon_to_path, destination_path)
 
 
 # ==> GLOBAL VARIABLES
